@@ -1,0 +1,64 @@
+body {
+    font-family: Sriracha;
+    text-align: justify;
+    background-color: #F0EAD6;
+    margin: auto;
+    height: auto;
+    padding: 50px 50px 50px 50px;
+    background-image: url(https://image.freepik.com/free-photo/baking-ingredients-against-colored-backdrop_23-2147981686.jpg);
+    background-size: cover;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    justify-content: center;
+}
+#nav-bar {
+    right: 0;
+    top: 0;
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+}
+#nav-list {
+    list-style-type: none;
+}
+.Recipe {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    
+}
+.content {
+    background-color: #F0EAD6;
+    opacity: .75;
+    margin: auto;
+    border-radius: 45px 45px 45px 45px;
+    padding: 0 15px 5px 15px;
+    font-size: 20px;
+}
+.content-header {
+    text-align: center;
+}
+.overview {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#brownie-img {
+    height: 25%;
+    width: 25%;
+    border-radius: 45px 45px 45px 45px;
+    padding: 5px 15px 5px 15px;
+}
+p {
+    font-size: 18px;
+}
+span {
+    font-size: 18px;
+}
