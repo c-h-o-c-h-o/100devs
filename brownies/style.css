@@ -17,14 +17,14 @@ h1 {
 h2 {
     justify-content: center;
 }
-#nav-bar {
+#related-links {
     right: 0;
     top: 0;
     position: fixed;
     padding: 10px 10px 10px 10px;
     text-align: right;
 }
-#nav-list {
+#link-list {
     list-style-type: none;
 }
 .Recipe {
