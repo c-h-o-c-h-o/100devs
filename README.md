@@ -2,4 +2,4 @@ I'm making this repository for collaboration with fellow classmates in the 100de
 
 Please read the Wiki and let me know if you have suggestions/ideas for how we can learn to code together with Git/GitHub!
 
--chocho
+Feel free to DM me on Discord: cho_cho #8835
