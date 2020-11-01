@@ -1,0 +1,91 @@
+body {
+    background-color: #000;
+    margin: auto;
+    height: auto;
+    width: auto;
+    font-family: monospace;
+}
+main {
+    background-color: #eee;
+    height: auto;
+    width: 1200;
+}
+.top {
+    display: flex;
+    flex-direction: row;   
+    text-align: center;
+    justify-content: space-between;
+    background-color: #000;
+    color: #eee;
+    padding: 10px 20px 10px 20px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #383838;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#date {
+    opacity: .7;
+}
+#news-heading {
+    margin-left: 10px;
+    color: #383838;
+    opacity: .7;
+}
+#nav-bar {
+    color: #eee;
+}
+.headlines {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+#headline {
+    background-image: url(https://image.shutterstock.com/image-illustration/milky-way-galaxy-over-horizon-260nw-667250236.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 10px;
+    color: #eee;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top-stories {
+    display: flex;
+    flex-direction: row;
+}
+.story-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.story-margins {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.more-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eee;
+    height: auto;
+    text-align: center;
+}
+.image-sizing {
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+span {
+    opacity: .7;
+}
