@@ -8,18 +8,19 @@ body {
 main {
     background-color: #eee;
     height: auto;
-    width: 1200;
+    width: auto;
 }
-.top {
+header {
     display: flex;
     flex-direction: row;   
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #000;
     color: #eee;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 5px 10px 5px;
+    margin: 0;
 }
-header {
+.banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,14 +37,22 @@ header {
     opacity: .7;
 }
 #nav-bar {
-    color: #eee;
+    list-style: none;
 }
-.headlines {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    margin-right: 10px;
-    justify-content: space-between;
+.nav-box {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.nav-links {
+    text-decoration: none;
+    color: #eee;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.nav-links:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
 #headline {
     background-image: url(https://image.shutterstock.com/image-illustration/milky-way-galaxy-over-horizon-260nw-667250236.jpg);
@@ -54,6 +63,22 @@ header {
     margin-left: 10px;
     margin-right: 10px;
 }
+#headline-text {
+    text-decoration: none;
+    color: #eee;
+}
+.article-links {
+    text-decoration: none;
+    color: #000;
+}
+.headlines {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
 .top-stories {
     display: flex;
     flex-direction: row;
