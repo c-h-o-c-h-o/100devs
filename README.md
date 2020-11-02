@@ -17,4 +17,6 @@ The workflow is as follows:
 9: Delete your local branch with git branch -d branch name
 10: Delete the remote branch with git push origin --delete branch name
 
+If you'd like to contribute/collaborate please DM me on discord cause I still need to figure out exactly how to get this workflow working with a group of people from the bootcamp. I want to test having someone fork this repo, then pushing their own branch to the repo with their work and whether or not we need to merge that to master or if that branch can be pulled to everyone's machines so we can review each others work. 
+
 Feel free to DM me on Discord: cho_cho #8835
