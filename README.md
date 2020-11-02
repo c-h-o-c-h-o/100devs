@@ -24,3 +24,9 @@ At this point in time, my current workflow for anyone who wants to collaborate t
 6: Teamwork makes the dream work (?) 
 
 Please DM me on Discord: cho_cho #8835 if you have suggestions on how to make this project work more efficiently. I am still new to Git/Github myself. 
+
+O almost forgot, as an added bonus, those of us who are active in this repo should all vote on the best submission from the server. Once we choose the best user submission, I'll deploy the site on Netlify to show off to our classmates! 
+
+My current sites in this repo are deployed here: 
+https://pedantic-blackwell-40a88c.netlify.app/
+https://lucid-mclean-e5431f.netlify.app/
