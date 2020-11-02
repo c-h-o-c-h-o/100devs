@@ -1,22 +1,26 @@
-I'm making this repository for collaboration with fellow classmates in the 100devs bootcamp. I'm still new to Git so I want to get comfortable sharing and collaborating code on github and understanding the proper workflow and use of branching and merging to main with other people's contributions. 
+Hey you, yea you, want to learn Git/Github and emulate a dev team environment?
 
-Please read the Wiki and let me know if you have suggestions/ideas for how we can learn to code together with Git/GitHub!
+Then join me on this 100devs collaboration project open to anyone doing the 100devs bootcamp!
 
-So I practiced and successfully contributed to my project from a separate branch that I made for the first HW assignment. 
+If you are completely new to git and Github, I'll do my best to outline resources for you to read/view that will get you set up:
 
-The workflow is as follows:
+The 3 resources I've followed thus far are:
 
-1: Create specific branch for your code contributions
-2: Work on that branch
-3: When done, push that branch to the repo which will create a remote copy of your branch on the repo
-4: Make a pull request for your contribution to be checked and cleared by the repo owner/maintainer
-5: Once the pull request is cleared either the maintainer will merge or you can merge through the cli by switching from your local branch to the local master branch that you have pulled. (Not sure if non-owners can merge through cli)
-6: Pull from origin master first to make sure your local master branch is up to date.
-7: Merge your local branch with your local master
-8: Push the merged master branch to the Repo
-9: Delete your local branch with git branch -d branch name
-10: Delete the remote branch with git push origin --delete branch name
+1: The Odin Project: https://www.theodinproject.com/courses/foundations/lessons/installation-overview
+This walks you through setting up a virtual machine on your computer so you can code in Linux OS. It shows you how to set up git on your OS and the following section: https://www.theodinproject.com/courses/foundations/lessons/introduction-to-git teaches you the most basic git commands you'll need to know and how to use CLI. 
 
-If you'd like to contribute/collaborate please DM me on discord cause I still need to figure out exactly how to get this workflow working with a group of people from the bootcamp. I want to test having someone fork this repo, then pushing their own branch to the repo with their work and whether or not we need to merge that to master or if that branch can be pulled to everyone's machines so we can review each others work. 
+2: Corey Schafer is the best youtube resource I've found for explaining coding in general. He has a great video that covers the basic git commands and how you'd use git in a team: https://www.youtube.com/watch?v=HVsySz-h9r4
 
-Feel free to DM me on Discord: cho_cho #8835
+3: Finally, to understand Opensource and how to contribute to any opensource project on Github, I've been reading this site: https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source
+
+At this point in time, my current workflow for anyone who wants to collaborate together is as follows:
+
+1: Fork this repo and clone it on your local drive. 
+2: Make a branch with a name that identifies you (ex: cho-cho-branch) 
+3: Organize your files in a directory (folder) called name-assignment in the corresponding folder for the week we're at in the bootcamp. ex (100devs/week-1/cho-cho-bbc-webpage/)
+4: Push your branch to this repo and make a pull request. So long as you have followed steps 1-3, I will accept your code and merge it with master.
+4b: To delete your branch and the remote branch that you push use git branch d- branch name to delete locally. Then git push origin --delete branch name to delete your pushed branch. 
+5: Now anyone who has this repo forked and updates with git pull will have a copy of your work that they can view on their machine in their text editor to easily make suggestions/comments.
+6: Teamwork makes the dream work (?) 
+
+Please DM me on Discord: cho_cho #8835 if you have suggestions on how to make this project work more efficiently. I am still new to Git/Github myself. 
