@@ -21,7 +21,7 @@ This walks you through setting up a virtual machine on your computer so you can 
 4. Push your branch to this repo and make a pull request. So long as you have followed steps 1-3, I will accept your code and merge it with master.
   4b: To delete your branch and the remote branch that you push use git branch d- branch name to delete locally. Then git push origin --delete branch name to delete your pushed branch. 
 5. Now anyone who has this repo forked and updates with git pull will have a copy of your work that they can view on their machine in their text editor to easily make suggestions/comments.
-6. Teamwork makes the dream work (?) 
+6. Teamwork makes the dream work (?)
 
 ### Please DM me on Discord: cho_cho #8835 if you have suggestions on how to make this project work more efficiently. I am still new to Git/Github myself. 
 
