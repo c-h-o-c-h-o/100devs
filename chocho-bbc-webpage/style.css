@@ -114,3 +114,13 @@ header {
 span {
     opacity: .7;
 }
+button {
+    background-color: #000;
+}
+button > a {
+    text-decoration: none;
+    color: #eee;
+}
+button:hover {
+    background-color: #383838;
+}
