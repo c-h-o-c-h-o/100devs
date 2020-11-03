@@ -1,6 +1,6 @@
 # Hey you, yea you, want to learn Git/Github and emulate a dev team environment?
 
-Then join me on this 100devs collaboration project open to anyone doing the 100devs bootcamp!
+Then join me in this 100devs collaboration project open to anyone doing the 100devs bootcamp!
 
 If you are completely new to git and Github, I'll do my best to outline resources for you to read/view that will get you set up:
 
