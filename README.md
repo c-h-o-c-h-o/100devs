@@ -19,19 +19,21 @@ This walks you through setting up a virtual machine on your computer so you can 
 
 2. Make a branch with a name that identifies you (ex: cho-cho-branch) 
 
-3. Organize your files in a directory (folder) that identifies you (ex: 100devs/cho-cho-bbc-webpage/) This will keep everyones code organized with clearly identifiable owners. Keep your files in that folder and work out of that directory until you are ready to commit your edits.
+3. Organize your files in a directory (folder) that identifies you (ex: 100devs/cho-cho-bbc-webpage/) This will keep everyones code organized with clearly identifiable owners. Keep your files in that folder and work out of that directory. Once you are done working, commit your edits locally with git add -A and git commit -m'commit message' 
 
 4. Pull (update) your forked repository from this repo. This is done with the git command: git remote add upstream https://github.com/c-h-o-c-h-o/100devs.git
         4b. Once the upstream is set to this master repo, you shouldnt have to do so again. Now you can update your local repository with: git pull upstream master
         
-5. Push your branch to this repo and make a pull request. So long as you have followed steps 1-3, I will accept your code and merge it with master.
+5. Push your branch to this repo and make a pull request. So long as you have followed the aforementioned steps, I will accept your code and merge it with master.
         5b: To delete your branch and the remote branch that you push use git branch d- branch name to delete locally. Then git push origin --delete branch name to delete your pushed branch. 
         
 6. Now anyone who has this repo forked and updates their fork with git pull upstream master will have a copy of your work that they can view on their machine in their text editor to easily make suggestions/comments.
 
-7. When peer-reviewing other people's work, we should comment out our suggestions so that the original code is preserved and the owner can clearly see the suggestions offered by the reviewer. Github also makes it really easy to see exactly what edits were made if you simply click on the commit made by the last person to edit a file. 
+7. If you want someone to review your code, please create a new Issue in the Issues tab and clearly indicate the directory that your code will be in so that anyone who wants to help can easily identify your work. 
 
-8. Teamwork makes the dream work (?)
+8. When peer-reviewing other people's work, we should comment out our suggestions so that the original code is preserved and the owner can clearly see the suggestions offered by the reviewer. Github also makes it really easy to see exactly what edits were made if you simply click on the commit made by the last person to edit a file. 
+
+9. Teamwork makes the dream work (?)
 
 
 ### Please DM me on Discord: cho_cho #8835 if you have suggestions on how to make this project work more efficiently. I am still new to Git/Github myself. 
