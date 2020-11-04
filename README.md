@@ -27,7 +27,7 @@ This walks you through setting up a virtual machine on your computer so you can 
         
 5. Push your branch to this repo and make a pull request. So long as you have followed the aforementioned steps, I will accept your code and merge it with master.
     5b. 
-    To delete your branch and the remote branch that you push use git branch d- branch name to delete locally. Then git push origin --delete branch name to delete your pushed branch. 
+    To delete your branch and the remote branch that you push use git branch -d branch name to delete locally. Then git push origin --delete branch name to delete your pushed branch. 
         
 6. Now anyone who has this repo forked and updates their fork with git pull upstream master will have a copy of your work that they can view on their machine in their text editor to easily make suggestions/comments.
 
