@@ -38,7 +38,7 @@ This walks you through setting up a virtual machine on your computer so you can 
 9. Teamwork makes the dream work (?)
 
 
-### Please DM me on Discord: cho_cho #8835 if you have suggestions on how to make this project work more efficiently. I am still new to Git/Github myself. 
+### Please DM me on Discord: cho_cho #8835 if you have suggestions on how to make this project work more efficiently. I am still new to Git/Github myself.
 
 O almost forgot, as an added bonus, those of us who are active in this repo should all vote on the best submission for each week's assignment. Once we choose the best user submission, I'll deploy the site on Netlify to show off to our classmates!
 
