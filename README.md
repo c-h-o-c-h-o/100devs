@@ -46,6 +46,4 @@ The current sites in this repo are deployed here:
 * https://pedantic-blackwell-40a88c.netlify.app/
 * https://lucid-mclean-e5431f.netlify.app/
 
-#### Shoutout to Imran for helping me test out the workflow!
-
-Testing testing
+#### Shoutout to Imran and Hailie for helping me test out the workflow!
