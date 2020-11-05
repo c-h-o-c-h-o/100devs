@@ -25,7 +25,7 @@ This walks you through setting up a virtual machine on your computer so you can 
     4b. 
     Once the upstream is set to this master repo, you shouldnt have to do so again. Now you can update your local repository with: `git pull upstream master`
         
-5. Push your branch to this repo with `git push` and make a pull request. So long as you have followed the aforementioned steps, I will accept your code and merge it with master.  
+5. Push your branch. You'll need to use the command `git push --set-upstream origin branch name' (ex: git push --set-upstream origin test). This pushes your branch to your fork where you can make a pull request on github. So long as you have followed the aforementioned steps, I will accept your code and merge it with master. From now on any new edits you want to push from this fork can be pushed with `git push`
     5b. 
     To delete your branch and the remote branch that you push use `git branch -d branch name` to delete locally. Then `git push origin --delete branch name` to delete your pushed branch. 
         
