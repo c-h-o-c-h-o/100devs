@@ -22,6 +22,7 @@ This walks you through setting up a virtual machine on your computer so you can 
 3. Organize your files in a directory (folder) that identifies you (ex: 100devs/cho-cho-bbc-webpage/) This will keep everyones code organized with clearly identifiable owners. Keep your files in that folder and work out of that directory. Once you are done working, commit your edits locally with `git add -A` and `git commit -m'commit message'`
 
 4. Pull (update) your forked repository from this repo. This is done with the git command: `git remote add upstream https://github.com/c-h-o-c-h-o/100devs.git`  
+
     4b. 
     Once the upstream is set to this master repo, you shouldnt have to do so again. Now you can update your local repository with: `git pull upstream master`
         
