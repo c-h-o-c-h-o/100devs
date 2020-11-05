@@ -36,10 +36,14 @@ This walks you through setting up a virtual machine on your computer so you can 
         
 6. Once your fork and repository are set up correctly. The order of commands to input are:  
     
-    Update your local repo and your forked repo: `git checkout master` `git pull upstream master` `git push origin master`
-    Make a new branch and switch into that branch `git branch branch-name` `git checkout branch-name`
-    Add a copy of the assignments/code you'd like peer reviewed to a directory that identifies you and then stage and commit them `git add -A` and `git commit -m'commit message'`
-    Push your branch `git push --set-upstream origin branch name` (if first time pushing on that branch) or `git push` if pushing on a branch that already has an established upstream. Make a pull request at your forked repo's webpage. Wait for it to be merged. 
+    Update your local repo and your forked repo: `git checkout master` `git pull upstream master` `git push origin master`  
+
+    Make a new branch and switch into that branch `git branch branch-name` `git checkout branch-name`  
+
+    Add a copy of the assignments/code you'd like peer reviewed to a directory that identifies you and then stage and commit them `git add -A` and `git commit -m'commit message'`  
+
+    Push your branch `git push --set-upstream origin branch name` (if first time pushing on that branch) or `git push` if pushing on a branch that already has an established upstream. Make a pull request at your forked repo's webpage. Wait for it to be merged.  
+      
     Congrats! Your work is ready for peer review! 
 
 
