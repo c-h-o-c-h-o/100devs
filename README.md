@@ -4,7 +4,7 @@ Then join me in this 100devs collaboration project open to anyone doing the 100d
 
 If you are completely new to git and Github, I'll do my best to outline resources for you to read/view that will get you set up:
 
-# The 3 resources I've followed thus far are:
+# The resources I've followed thus far are:
 
 1. The Odin Project: https://www.theodinproject.com/courses/foundations/lessons/installation-overview
 This walks you through setting up a virtual machine on your computer so you can code in Linux OS. It shows you how to set up git on your OS and the following section: https://www.theodinproject.com/courses/foundations/lessons/introduction-to-git teaches you the most basic git commands you'll need to know and how to use CLI. 
@@ -12,6 +12,8 @@ This walks you through setting up a virtual machine on your computer so you can 
 2. Corey Schafer is the best youtube resource I've found for explaining coding in general. He has a great video that covers the basic git commands and how you'd use git in a team: https://www.youtube.com/watch?v=HVsySz-h9r4
 
 3. Finally, to understand Opensource and how to contribute to any opensource project on Github, I've been reading this site: https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source
+
+4. For a visual interactive guide to understanding git, Imran recommends this resource: https://learngitbranching.js.org/ Try it out!
 
 ## At this point in time, the current workflow that must be followed to properly share your code for peer review is:
 
