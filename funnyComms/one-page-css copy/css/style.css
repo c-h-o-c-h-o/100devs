@@ -1,0 +1,104 @@
+body {
+  background: rgb(138, 206, 234);
+  color: white;
+  font-family: "Vesper Libre", serif;
+}
+
+body > section {
+  border: 7px solid rgb(78, 203, 61);
+  height: 95%;
+  margin: 2.5%;
+  width: 95%;
+}
+
+footer {
+  height: 1em;
+  margin-bottom: 5em;
+  width: auto;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+  font-style: italic;
+  font-family: "Vesper Libre", serif;
+  height: 17%;
+  margin: 4% 0 3% 0;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2.3em;
+  margin: 5% 0 3% 7.5%;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+}
+
+header > section {
+  margin: auto;
+  width: 70%;
+}
+
+img {
+  height: 20%;
+  float: right;
+  margin-right: 5%;
+  padding: 0 3% 3% 3%;
+  width: 33%;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.3em;
+  list-style: none;
+  padding-right: 1.1%;
+  white-space: nowrap;
+  width: auto;
+}
+li a {
+  border-right: 3px solid rgb(130, 147, 154);
+  color: rgb(85, 203, 160);
+  display: inline-block;
+  font-family: "Merriweather Sans", sans-serif;
+  height: 1.05em;
+  padding-right: 10%;
+  width: auto;
+}
+
+li:last-child a:last-child {
+  border: none;
+}
+
+nav {
+  padding-bottom: 0;
+  width: auto;
+}
+
+nav ul li:first-child > a:first-child {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.45em;
+  margin: 0 7% 3% 7.5%;
+}
+p:first-child {
+  width: 50%;
+}
+
+section > nav {
+  padding-bottom: 4%;
+}
+
+ul {
+  padding: none;
+  text-align: center;
+  width: auto;
+}
