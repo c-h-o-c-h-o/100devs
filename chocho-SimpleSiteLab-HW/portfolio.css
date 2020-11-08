@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(135, 205, 235, 1);
+    color: white;
+    font-family: sans-serif;
+    margin: 30px auto;
+    border: 10px;
+    border-style: solid;
+    border-color: rgba(72, 205, 50, 1);
+    max-width: 700px;
+    height: 800px;
+    padding: 55px 45px 10px 45px;
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    font-size: 20px;
+}
+nav > ul > li {
+    list-style: none;
+    display: inline;
+}
+nav > ul > li > a {
+    color: rgba(72, 205, 50, 1);
+    font-weight: bold;
+}
+nav > ul > li > a:hover {
+    color: rgba(70, 205, 150, 1);
+}
+nav > ul > li > span {
+    color: rgba(130, 140, 145, 1);
+    font-weight: bold;
+    font-size: 20px;
+}
+section {
+    text-align: center;
+}
+p {
+    text-align: center;
+}

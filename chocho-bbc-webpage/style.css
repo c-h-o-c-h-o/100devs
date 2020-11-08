@@ -104,6 +104,10 @@ header {
     background-color: #eee;
     height: auto;
     text-align: center;
+    width: auto;
+}
+.more-news-container {
+    width: 33%;
 }
 .image-sizing {
     width: 600px;
@@ -113,4 +117,26 @@ header {
 }
 span {
     opacity: .7;
+}
+button {
+    background-color: #000;
+}
+button > a {
+    text-decoration: none;
+    color: #eee;
+}
+button:hover {
+    background-color: #383838;
+}
+@media screen and (max-width: 600px) {
+    .more-news, 
+    .more-news-container, 
+    .article-containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
 }
