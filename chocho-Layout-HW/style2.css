@@ -1,0 +1,45 @@
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0 auto;
+}
+body {
+    background: linear-gradient(35deg, rgba(9,64,121,0) 2%, rgba(107,8,115,0.40940126050420167) 8%, rgba(28,7,105,0.5550595238095238) 15%, rgba(90,17,6,0.742734593837535) 28%, rgba(74,17,11,0.9023984593837535) 49%, rgba(152,44,173,1) 76%) fixed;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.samesame {
+    border: 3px solid #000;
+    height: 200px;
+    text-align: center;
+    color: #EEE;
+    text-decoration: none;
+    line-height: 175px;
+    clear: both;
+}
+#numero-uno {
+    color: #EEE;
+    text-align: center;
+    border: 3px solid #000;
+    height: 300px;
+    clear: both;
+    line-height: 300px;
+}
+#numero-dos {
+    border: 3px solid #000;
+    float: left;
+    width: 40%;
+    height: 350px;
+}
+#numero-tres {
+    border: 3px solid #000;
+    float: left;
+    width: 60%;
+    height: 350px;
+}
+a {
+    text-decoration: none;
+}
+footer > a:hover {
+    color: #EEE;
+}

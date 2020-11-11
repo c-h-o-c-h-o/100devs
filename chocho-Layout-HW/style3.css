@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0 auto;
+}
+body {
+    background-image: url('https://pbs.twimg.com/media/EUlu7lLU4AMK-R7.jpg');
+    background-size: cover;
+    font-family: Sriracha, sans-serif;
+}
+header, footer {
+    height: 200px;
+    color: purple;
+    text-align: center;
+    height: 200px;
+    clear: both;
+    border: 3px groove fuchsia;
+    line-height: 200px;
+}
+.column {
+    height: 600px;
+    float: left;
+    border: 3px groove fuchsia;
+}
+#col-1 {
+    width: 25%;
+}
+#col-2 {
+    width: 35%;
+}
+#col-3 {
+    width: 20%;
+}
+#col-4 {
+    width: 20%;
+}
+a {
+    text-decoration: none;
+}
+footer > a:hover {
+    color: #EEE;
+}
