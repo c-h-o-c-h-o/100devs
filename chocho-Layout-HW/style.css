@@ -42,3 +42,47 @@ a {
 footer > a:hover {
     color: #EEE;
 }
+@media screen and (max-width: 400px) {
+    .floatsom {
+        float: none;
+        width: auto;    
+    }
+    .bottomfeeder {
+        float: none;
+        width: auto; 
+    } 
+} 
+@media screen and (max-width: 600px) {
+    .floatsom {
+        float: none;
+        width: auto;    
+    }
+    .bottomfeeder {
+        float: none;
+        width: auto; 
+    } 
+}
+@media screen and (max-width: 1000px) {
+    .floatsom {
+        float: none;
+        width: auto;    
+    }
+    .bottomfeeder {
+        float: none;
+        width: auto; 
+    }
+}
+@media screen and (max-width: 1400px) {
+    .floatsom {
+        float: none;
+        width: auto;    
+    }
+    .bottomfeeder {
+        float: none;
+        width: auto; 
+    }
+}
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
