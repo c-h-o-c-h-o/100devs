@@ -45,41 +45,47 @@ footer > a:hover {
 @media screen and (max-width: 400px) {
     .floatsom {
         float: none;
-        width: auto;    
+        width: auto; 
     }
     .bottomfeeder {
         float: none;
         width: auto; 
     } 
 } 
-@media screen and (max-width: 600px) {
+@media screen and  (min-width: 401px) and (max-width: 600px) {
     .floatsom {
         float: none;
         width: auto;    
+        background: red;
     }
     .bottomfeeder {
         float: none;
         width: auto; 
+        background: red;
     } 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
     .floatsom {
         float: none;
         width: auto;    
+        background: yellow;
     }
     .bottomfeeder {
         float: none;
         width: auto; 
+        background: yellow;
     }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
     .floatsom {
         float: none;
         width: auto;    
+        background: green;
     }
     .bottomfeeder {
         float: none;
         width: auto; 
+        background: green;
     }
 }
 @viewport {
