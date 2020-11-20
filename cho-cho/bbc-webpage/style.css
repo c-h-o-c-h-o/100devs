@@ -110,7 +110,7 @@ header {
     width: 33%;
 }
 .image-sizing {
-    width: 600px;
+    width: 100%;
     height: auto;
     margin-left: 10px;
     margin-right: 10px;

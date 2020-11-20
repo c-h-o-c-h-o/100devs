@@ -27,18 +27,24 @@ body {
   margin: auto;
   height: auto;
   width: auto;
+  font-family: Arial;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+div {
+  width: 100%;
+}
 nav, main, aside {
-  width: 10%;
   float: left;
 }
+nav {
+  width: 20%;
+}
 #TC-logo {
-  width: 40%;
+  width: 30%;
   height: auto;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -48,12 +54,13 @@ nav > ul> li > a {
   color: grey;
 }
 .nav {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  margin-right: -300px;
 }
 nav hr {
-  width: 20%;
+  width: 10%;
   margin-right: 300px;
 }
 #login {
@@ -62,61 +69,67 @@ nav hr {
 #Join {
   color: orange;
   font-weight: bold;
+  font-size: 2rem;
 }
 main {
-  width: 30%;
+  width: 50%;
 }
 main > img {
   width: 100%;
   height: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 main > h1 {
   color: darkgoldenrod;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: -35px;
 }
 main > h2 {
-  font-size: 2rem;
+  font-size: 3.8rem;
   font-weight: bolder;
+  margin-bottom: -15px;
+}
+main a {
+  text-decoration: none;
+  color: black;
 }
 main > p {
   color: grey;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 main > span {
   color: black;
-  font-size: .9rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 aside {
-  width: 18%;
+  width: 30%;
 } 
 aside > ul > li > a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 aside > ul > span {
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 h4, #line-break, #bottom {
   clear: both;
-  margin-left: 190px;
-  margin-right: 800px;
+  margin-left: 380px;
 }
-
 .WonderWoman {
   float: left;
   width: 33.33%;
-  margin-top: 0;
+  margin-top: 15px;
 }
 #Wonder-woman-pic {
   width: 100%;
@@ -126,25 +139,30 @@ h4, #line-break, #bottom {
 section > p {
   margin-left: 55px;
   margin-right: 55px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 ul li {
   list-style: none;
 }
 section > h3 {
-  font-size: 1.2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 10px;
+}
+section a {
+  text-decoration: none;
+  color: black;
 }
 section > span {
   display: block;
   color: grey;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 #Author {
   color: black;
-  font-size: .9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
 }
