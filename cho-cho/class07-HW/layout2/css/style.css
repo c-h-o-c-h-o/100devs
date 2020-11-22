@@ -65,6 +65,7 @@ header > nav > ul > li {
 }
 .nav > a {
   text-decoration: none;
+  margin-top: .8%;
   margin-right: 5%;
   color: blue;
   font-weight: bold;
@@ -77,21 +78,24 @@ hr {
 }
 #content-pic {
   float: left;
-  margin-top: 5%;
+  margin-top: 9%;
   margin-left: 15%; 
   width: 35%;
   height: auto;
 }
 #right-side {
   float: left;
-  margin-top: 15%;
-  width: 40%;
+  margin-top: 16%;
+  width: 35%;
   margin-left: 2%;
 }
 section h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0;
   margin-top: 0;
+}
+#heading {
+  width: 60%
 }
 section > p {
   font-size: 1.5rem;
@@ -101,6 +105,7 @@ section > p {
   color: white;
   border-radius: 5px 5px;
   font-size: 1.3rem;
+  margin-right: 1%;
 }
 ::placeholder {
   color: blue;
