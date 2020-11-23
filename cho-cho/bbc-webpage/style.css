@@ -7,8 +7,7 @@ body {
 }
 main {
     background-color: #eee;
-    height: auto;
-    width: auto;
+
 }
 header {
     display: inline-block; 
@@ -135,15 +134,19 @@ button {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     background-color: #eee;
-    text-align: center;
+    text-align: left;
 }
 .more-news-container {
     width: 33%;
 }
+.article-containers {
+    margin-left: 10px;
+}
 .image-sizing {
     width: 100%;
+    height: 65%;
     margin-left: 10px;
     margin-right: 10px;
 }
