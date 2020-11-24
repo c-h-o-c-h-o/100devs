@@ -195,12 +195,43 @@ footer {
 @media screen and (max-width: 1280px) {
   .header-1 {
     margin-left: 2%;
-    padding-right: 15%;
+    padding-right: 12%;
   }
   .header-2-links {
     padding-right: 1rem; 
   }
   .header-3 {
+    margin-left: 15%;
+  }
+  .h1-content {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1456px) and (max-width: 1710px) {
+  .header-1 {
+    margin-left: 4%;
+    padding-right: 15%;
+  }
+  .header-2-links {
+    padding-right: 1.5rem; 
+  }
+  .header-3 {
     margin-left: 18%;
   }
 }
+@media screen and (min-width: 1281px) and (max-width: 1456px) {
+  .header-1 {
+    margin-left: 3%;
+    padding-right: 13%;
+  }
+  .header-2-links {
+    padding-right: 1.2rem; 
+  }
+  .header-3 {
+    margin-left: 16%;
+  }
+  .h1-content {
+    width: 70%;
+  }
+}
+@media-screen and (min-width: 13)
