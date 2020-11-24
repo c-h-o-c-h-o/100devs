@@ -103,10 +103,14 @@ header button {
   color: white;
 }
 header > a {
-  margin-left: 5%;
-  padding-right: 20%;
+  padding-right: 15%;
   color: rgb(66,86,103);
   font-weight: bold;
+}
+#source {
+  margin-left: 5%;
+  padding-right: 10%;
+  margin-right: 10%;
 }
 header > nav > ul > li {
   padding: 15px;
@@ -141,6 +145,7 @@ header button {
 }
 .feature-container {
   width: 90%;
+  height: 20rem;
   margin-left: 8%;
   clear: both;
   background-color: rgb(245,249,252);
