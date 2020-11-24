@@ -22,17 +22,163 @@
 /*******************************************/
 
 body {
-
+  background-color: rgb(218,221,225);
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.relative {
+  position: relative;
+  width: 65%;
+  height: 100%;
+  margin-left: 22%;
+  margin-right: 20%;
+  margin-top: 2%;
+  background-color: white;
 }
-
+.absolute > ul > li > h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.absolute > h2 {
+  font-size: 1.5rem;
+  color: rgb(66,86,103);
+}
+.absolute > ul li {
+  display: inline-block;
+}
+.absolute > ul {
+    margin-bottom: 0;
+}
+.absolute img {
+  width: 100%;
+  margin-left: 7%;
+  
+}
+.absolute button {
+  width: 100%;
+}
+.absolute input {
+  width: 100%;
+}
+#bars {
+  margin-left: -35px;
+  margin-right: 35px;
+}
+.absolute {
+  position: absolute;
+  width: 15%;
+  height: 78%;
+  top: 13%;
+  left: 10%;
+  background-color: rgb(245,249,252);
+  box-shadow: 15px 15px 20px rgb(202,209,213);
+  overflow: visible;
+  font-size: 1.4rem;
+  padding-left: 1%;
+  padding-right: 1%;
+  z-index: 3;
+}
+button {
+  background-color: rgb(48,70,89);
+  color: white;
+}
+#button {
+  margin-left: 25%;
+}
+header {
+  background-color: rgb(245,249,252);
+}
+header * {
+  display: inline-block;
+  clear: both;
+  text-decoration: none;
+  color: rgb(143,158,170);
+  margin-bottom: 1%;
+}
+header button {
+  color: white;
+}
+header > a {
+  margin-left: 5%;
+  padding-right: 20%;
+  color: rgb(66,86,103);
+  font-weight: bold;
+}
+header > nav > ul > li {
+  padding: 15px;
+}
+header button {
+  margin-right: -25%;
+}
+.background-container {
+  background-color: rgb(245,249,252);
+}
+.content {
+  width: 100%;
+}
+.content input {
+  width: 70%;
+}
+.h1-container {
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 42%;
+  float: left;
+}
+.h1-content {
+  width: 50%;
+}
+.background-img-container {
+  float: left;
+  width: 50%;
+}
+.background-img-container > img {
+  width: 100%;
+}
+.feature-container {
+  width: 90%;
+  margin-left: 8%;
+  clear: both;
+  background-color: rgb(245,249,252);
+}
+.features {
+  float: left;
+  width: 24.5%;
+  padding-right: 5%;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  color: rgb(66,86,103);
+}
+.features > a {
+  text-decoration: none;
+  color: rgb(48,70,89)
+}
+.info {
+  clear: both;
+  margin-right: 0%;
+  margin-left: 0%;
+  background-color: white;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-bottom: 3%;
+  color: rgb(48,70,89)
+}
+.info-content {
+  width: 35%;
+}
+.info h2 {
+  font-size: 2.5rem;
+}
+.box {
+  background-color: rgb(225,233,240);
+  width: 85%;
+  height: 30px;
+  margin-left: 8%;
+}
 footer {
 
 }

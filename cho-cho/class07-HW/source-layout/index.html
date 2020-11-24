@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
+  	<meta name="description" content="Source Layout HW">
   	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blank Template</title>
+	<title>Source Demo</title>
 	
 	<!-- external CSS link -->
 	
@@ -14,6 +14,20 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"crossorigin="anonymous"/>
 	</head>
 	<body>
+        <section class='absolute'>
+            <ul>
+                <li><i id='bars' class="fas fa-bars"></i></li>
+                <li><h2>Source</h2></li>
+            </ul>
+            <hr>
+            <span>TAGLINE</span>
+            <h3>Source helps creators do more of what they love</h3>
+            <input type='text' placeholder='Placeholder'>
+            <button>Button</button>
+            <p>A device that enables collaboration will lessen the chance of work having to be completely redone.</p>
+            <img src='background-img.png' alt='background-img'>
+        </section>
+        <main class='relative'>
         <header>
             <a href=#>Source</a>
             <nav>
@@ -23,20 +37,24 @@
                     <li><a href=#>Third link</a></li>
                     <li><a href=#>Fourth link</a></li>
                 </ul>
-            <button>Button</button>
+            <button id='button'>Button</button>
             </nav>
         </header>
-        <section>
-            <div>
-                <span>TAGLINE</span>
-                <h1>Source helps creators do more of what they love</h1>
-                <input type='text' placeholder='Placeholder'><button>Button</button>
-                <p>A device that enables collaboration will lessen the chance of work having to be completely redone.</p>
+        <section class='background-container'>
+            <div class='content'>
+                <div class='h1-container'>
+                    <div class='h1-content'>
+                        <span>TAGLINE</span>
+                        <h1>Source helps creators do more of what they love</h1>
+                        <input type='text' placeholder='Placeholder'><button>Button</button>
+                        <p>A device that enables collaboration will lessen the chance of work having to be completely redone.</p>
+                    </div>
+                </div>
+                <div class='background-img-container'>
+                    <img src='background-img.png' alt='background-img'>
+                </div>
             </div>
-            <div>
-                <img src=# alt=''>
-            </div>
-            <section>
+            <section class='feature-container'>
                 <section class='features'>
                     <i class="far fa-circle"></i>
                     <h3>Feature one</h3>
@@ -63,19 +81,14 @@
                 </section>
             </section>
         </section>
-        <section>
-            <h2>Source</h2>
-            <span>TAGLINE</span>
-            <h3>Source helps creators do more of what they love</h3>
-            <input type='text' placeholder='Placeholder'>
-            <button>Button</button>
-            <p>A device that enables collaboration will lessen the chance of work having to be completely redone.</p>
-            <img src=# alt=''>
+        <section class='info'>
+            <div class='info-content'>
+                <h2>Collecting information about the problem</h2>
+                <p>In the context of information architecture, information is separate from both knowledge and data, and lies nebulously between them.</p>
+            </div> 
         </section>
-        <section>
-            <h2>Collecting information about the problem</h2>
-            <p>In the context of information architecture, information is separate from both knowledge and data, and lies nebulously between them.</p>
-        </section>
+            <div class='box'></div>
+        </main>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
