@@ -71,7 +71,7 @@ body {
 .absolute {
   position: absolute;
   width: 15%;
-  height: 78%;
+  height: 45rem;
   top: 13%;
   left: 10%;
   background-color: rgb(245,249,252);
@@ -85,9 +85,6 @@ body {
 button {
   background-color: rgb(48,70,89);
   color: white;
-}
-#button {
-  margin-left: 25%;
 }
 header {
   background-color: rgb(245,249,252);
@@ -103,16 +100,20 @@ header button {
   color: white;
 }
 header > a {
-  padding-right: 15%;
   color: rgb(66,86,103);
   font-weight: bold;
 }
-#source {
+.header-1 {
   margin-left: 5%;
-  padding-right: 10%;
-  margin-right: 10%;
+  padding-right: 20%;
 }
-header > nav > ul > li {
+.header-2-links {
+  padding-right: 2rem; 
+}
+.header-3 {
+  margin-left: 23%;
+}
+header  {
   padding: 15px;
 }
 header button {
