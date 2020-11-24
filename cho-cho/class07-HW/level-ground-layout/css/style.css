@@ -22,7 +22,8 @@
 /*******************************************/
 
 body {
-
+  background-color: rgb(102,118,138);
+  font-family: Helvetica;
 }
 
 
@@ -30,13 +31,356 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
 }
-
+.header-nav-box {
+  float: left;
+  width: 15rem;
+  margin-right: 36%;
+}
+.nav-bar li {
+  list-style: none;
+}
+.nav-bar ul {
+  margin-top: 0;
+}
+.nav-links {
+  text-decoration: none;
+  color: rgb(241,241,241);
+  float: left;
+  padding-right: 1rem;
+}
+.header-logo {
+  float: left;
+  margin-right: 40%;
+}
+.header-button {
+  float: left;
+  background-color: rgb(241,241,241); ;
+  color: rgb(102,118,138);
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.h1-container {
+  clear: both;
+  background-color: rgb(102,118,138);
+  color: rgb(241,241,241);
+  text-align: center;
+  height: 30rem;
+}
+.h1-container h1 {
+  margin-top: 0;
+  padding-top: 5%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.h1-container span {
+  display: block;
+  padding-top: 5%;
+  color: rgb(73,79,95);
+}
+.h1-container a {
+  text-decoration: none;
+  color: rgb(241,241,241);
+}
+.h1-content {
+  width: 42%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+.why-container {
+  background-color: rgb(255,255,255);
+  text-align: center;
+  height: 20rem;
+}
+.why-container h3 {
+  margin-top: 0;
+  margin-bottom: 1%;
+  padding-top: 4%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.why-content {
+  width: 23%;
+  margin: 0 auto;
+}
+.clearfix {
+  background-color: rgb(219,223,226);
+  width: 100%;
+  height: 33rem;
+}
+.smol-box {
+  margin: 0 auto;
+  margin-top: 10%;
+  height: 12rem;
+  width: 45%;
+  background-color: rgb(102,118,138);
+}
+.floaters {
+  float: left;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+.floaters h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#left-box {
+  margin-left: 5%;
+}
+.floater-content {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+}
+.volunteer-container {
+  background-color: rgb(255,255,255);
+  text-align: center;
+  height: 30rem;
+  clear: both;
+}
+.volunteer-container h3 {
+  margin-top: 0;
+  padding-top: 8%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.volunteer-container button {
+  background-color: rgb(255,255,255);
+}
+.volunteer-content {
+  width: 23%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
 footer {
-
+  background-color: rgb(22,31,42);
+  height: 18rem;
+  color: rgb(241,241,241);
+  padding-left: 2%;
+  padding-right: 2%;
 }
-
+footer a {
+  text-decoration: none;
+  color: rgb(241,241,241);
+}
+.footer-floater {
+  float: left;
+  width: 10rem;
+}
+.footer-floater span {
+  color: rgb(95,110,129);
+}
+#footer-left {
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-right: 80%;
+}
+.icons {
+  margin-bottom: 10%;
+  font-size: 2rem;
+}
+.site-links {
+  margin-bottom: 10%;
+}
+.site-links a {
+  padding-right: 8%;
+}
+.contribute-links {
+  margin-bottom: 10%;
+}
+.contribute-links a {
+  padding-right: 8%;
+}
+#footer-right {
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 10%;
+}
+#footer-right span {
+  color: rgb(241,241,241);
+}
+#footer-right h5 {
+  padding-bottom: 10%;
+}
+#footer-right h5, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#footer-right p {
+  padding-bottom: 5%;
+}
+.footer-legal {
+  clear: both;
+}
+.footer-legal img {
+  display: inline-block;
+}
+.footer-legal p {
+  padding-top: 1%;
+  float: left;
+}
+.footer-legal img {
+  float: right;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media screen and (min-width: 1309px) and (max-width: 1508px) {
+  .header-nav-box {
+    float: left;
+    width: 15rem;
+    margin-right: 30%;
+  }
+  .header-logo {
+    float: left;
+    margin-right: 35%;
+  }
+  .header-button {
+    float: left;
+    background-color: rgb(241,241,241); ;
+    color: rgb(102,118,138);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  #footer-left {
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 60%;
+  }
+  #footer-right {
+    font-size: 1rem;
+    width: 20%;
+  }
+
+}
+@media screen and (max-width: 1000px) {
+  .header-nav-box {
+    float: left;
+    width: 15rem;
+    margin-right: 23%;
+  }
+  .header-logo {
+    float: left;
+    margin-right: 30%;
+  }
+  .header-button {
+    float: left;
+    background-color: rgb(241,241,241); ;
+    color: rgb(102,118,138);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  #footer-left {
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 60%;
+  }
+  #footer-right {
+    font-size: 1rem;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1127px) {
+  .header-nav-box {
+    float: left;
+    width: 15rem;
+    margin-right: 25%;
+  }
+  .header-logo {
+    float: left;
+    margin-right: 30%;
+  }
+  .header-button {
+    float: left;
+    background-color: rgb(241,241,241); ;
+    color: rgb(102,118,138);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  #footer-left {
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 64%;
+  }
+  #footer-right {
+    font-size: 1rem;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1128px) and (max-width: 1200px) {
+  .h1-container h1 {
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .header-nav-box {
+    float: left;
+    width: 15rem;
+    margin-right: 28%;
+  }
+  .header-logo {
+    float: left;
+    margin-right: 32%;
+  }
+  .header-button {
+    float: left;
+    background-color: rgb(241,241,241); ;
+    color: rgb(102,118,138);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  #footer-left {
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 65%;
+  }
+  #footer-right {
+    font-size: 1rem;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1308px) {
+  .h1-container h1 {
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .header-nav-box {
+    float: left;
+    width: 15rem;
+    margin-right: 29%;
+  }
+  .header-logo {
+    float: left;
+    margin-right: 33%;
+  }
+  .header-button {
+    float: left;
+    background-color: rgb(241,241,241); ;
+    color: rgb(102,118,138);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  #footer-left {
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 65%;
+  }
+  #footer-right {
+    font-size: 1rem;
+    width: 20%;
+  }
+}
