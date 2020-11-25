@@ -61,6 +61,10 @@ This walks you through setting up a virtual machine on your computer so you can 
 O almost forgot, as an added bonus, those of us who are active in this repo should all vote on the best submission for each week's assignment. Once we choose the best user submission, I'll deploy the site on Netlify to show off to our classmates!
 
 The current sites in this repo are deployed here: 
+* https://pensive-roentgen-9ba248.netlify.app/ (Level Ground)
+* https://gallant-kare-3e10a1.netlify.app/ (Source Layout)
+* https://quirky-shirley-12f885.netlify.app/ (Khan Academy) 
+* https://lucid-franklin-a458e6.netlify.app/ (TechCrunch)
 * https://goofy-ride-96d356.netlify.app/index.html (Layouts HW)
 * https://pedantic-blackwell-40a88c.netlify.app/ (BBC website HW)
 * https://lucid-mclean-e5431f.netlify.app/ (Week 2 HW)
