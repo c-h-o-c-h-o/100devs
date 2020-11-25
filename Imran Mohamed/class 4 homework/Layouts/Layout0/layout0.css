@@ -1,0 +1,15 @@
+*{  
+    box-sizing: border-box;   
+    border: 1px solid black;
+    padding: 0;
+    margin:0;
+}
+header, footer{
+    height: 15vh; 
+    clear: both;
+}  
+section{
+    float: left;
+    width: 33.3333%;
+    height: 70vh; 
+}
