@@ -67,8 +67,8 @@ The current sites in this repo are deployed here:
 * https://lucid-franklin-a458e6.netlify.app/ (TechCrunch)
 * https://goofy-ride-96d356.netlify.app/index.html (Layouts HW)
 * https://pedantic-blackwell-40a88c.netlify.app/ (BBC website HW)
-* https://lucid-mclean-e5431f.netlify.app/ (Week 2 HW)
-* https://ecstatic-lewin-bef382.netlify.app/ (Brownies webpage)
+* https://ecstatic-lewin-bef382.netlify.app/ (Week 2 HW)
+* https://lucid-mclean-e5431f.netlify.app/ (Brownies webpage)
 
 #### Shoutout to Imran, Hailie and Xnasero for helping me test out the workflow!
 
