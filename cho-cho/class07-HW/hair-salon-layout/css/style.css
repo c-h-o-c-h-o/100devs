@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -30,9 +30,310 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 100%;
 }
-
+header img {
+  padding-top: 5%;
+  margin-left: 5rem;
+  margin-right: 24rem;
+  width: 5rem; 
+}
+nav li {
+  padding-top: 1rem;
+  list-style: none;
+  display: inline-block;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+#lock-icon {
+  margin-right: 15rem;
+}
+.landing-box {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 15%;
+  width: 100%;
+  height: 50rem;
+  background-image: url(../landing-page-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 10% 50%;
+}
+.h1-container {
+  color: white;
+}
+.h1-sizing {
+  width: 27rem;
+}
+.h1-container h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+.hours {
+  position: absolute;
+  top: 55%;
+  right: -5%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 13rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+.our-services {
+  padding: 1rem;
+  width: 10rem;
+  height: 2.9rem;
+  background: black;
+}
+.our-services a {
+  text-decoration: none;
+  color: white;
+  padding-left: .1rem;
+}
+.landing-bottom {
+  position: relative;
+  margin-top: 6rem;
+}
+.first-visit {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 17rem;
+  width: 15rem;
+  background-color: black;
+  color: white;
+}
+.first-visit h3 {
+  font-size: 1rem;
+}
+.first-visit span {
+  font-size: 2rem;
+}
+.book-online-box {
+  width: 11rem;
+  height: 3rem;
+  padding: 1rem;
+  background-color: white;
+}
+.book-online-box a {
+  padding-left: .5rem;
+}
+.first-visit a {
+  text-decoration: none;
+  color: black;
+}
+.arrows {
+  position: absolute;
+  bottom: 20%;
+  left: 94%;
+  color: white;
+  font-size: 2rem;
+}
+.highlight-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7%;
+}
+#beauticians {
+  margin-left: 22.5%;
+}
+.highlights {
+  width: 18%;
+  text-align: center;
+  margin-right: 2rem;
+  margin-bottom: 5%;
+}
+.highlights i {
+  font-size: 3rem;
+}
+.momentum-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(243,244,246);
+  height: 30rem;
+}
+.momentum {
+  margin-right: 2rem;
+  width: 25%;
+  margin-top: 4%;
+}
+.momentum-h2-container {
+  width: 80%;
+}
+#momentum-left {
+  margin-left: 22.5%;
+  margin-right: 9%;
+}
+.momentum-content {
+  width: 79%;
+}
+.momentum-content p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.read-more-box {
+  padding: 1rem;
+  width: 9rem;
+  height: 2.9rem;
+  background: black;
+}
+.read-more-box a {
+  text-decoration: none;
+  color: white;
+}
+#momentum-right {
+  position: relative;
+  background-image: url(../momentum-pic.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 6%;
+}
+#momentum-right i {
+  position: absolute;
+  top: 30%;
+  right: 45%;
+  font-size: 3rem;
+  color: white;
+}
+.momentum h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.peep-container {
+  display: flex;
+  flex-direction: row;
+  height: 30rem;
+}
+.peeps {
+  position: relative;
+  width: 17%;
+  margin-top: 5%;
+}
+.peeps span {
+  display: block;
+  font-size: .8rem;
+  padding-top: 1%;
+}
+.peep-box {
+  position: absolute;
+  bottom: 8%;
+  left: 8%;
+  width: 12rem;
+  height: 4rem;
+  background-color: black;
+  color: white;
+}
+.peep-box-content {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+.peep-box a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+#left-peep {
+  margin-left: 27%;
+}
+.portraits {
+  width: 15rem;
+  height: 20rem;
+}
+.coupon-box {
+  background-image: url(../coupon-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 56rem;
+  height: 25rem;
+  margin-left: 27%;
+}
+.coupon {
+  color: white;
+  margin-left: 5%;
+  padding-top: 5%;
+  margin-top: 7%;
+}
+.coupon-content {
+  margin-top: 5%;
+  font-size: 2rem;
+  width: 45%;
+}
+.coupon-content span {
+  font-size: 3rem;
+}
+.book-appt-box {
+  margin-top: 5%;
+  width: 13rem;
+  height: 3rem;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+.book-appt-box a {
+  text-decoration: none;
+  color: black;
+}
+#lookbook {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: -2%;
+}
+#lookbook- {
+  display: block;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 0;
+}
+.lookbook-container {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  height: 60rem;
+  margin-left: 17%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 80rem;
+  margin-right: 2rem;
+}
+.smol {
+  width: 25rem;
+  height: 25rem;
+  margin-bottom: 2rem;
+  
+}
+.large {
+  height: 50rem;
+  width: 25rem;
+}
+.smol-box {
+  width: 25rem;
+  height: 25rem;
+  background-color: black;
+  margin-top: 2rem;
+  position: relative;
+}
+.smol-box i {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  font-size: 5rem;
+  color: white;
+}
 footer {
 
 }
@@ -40,3 +341,13 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media screen and (max-width: 1280px) {
+  header img {
+    padding-top: 10%;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    width: 5rem; 
+  }
+  #lock-icon {
+    margin-right: 1rem;
+}
