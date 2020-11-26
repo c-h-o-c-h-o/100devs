@@ -107,7 +107,6 @@ nav li a {
 }
 .first-visit {
   padding-top: 2rem;
-  padding-left: 2rem;
   padding-right: 1rem;
   height: 17rem;
   width: 15rem;
@@ -116,11 +115,19 @@ nav li a {
 }
 .first-visit h3 {
   font-size: 1rem;
+  padding-left: 2rem;
+}
+.first-visit p {
+  padding-left: 2rem;
 }
 .first-visit span {
   font-size: 2rem;
 }
+.first-visit-border {
+  border-left: solid 2px white;
+}
 .book-online-box {
+  margin-left: 2rem;
   width: 11rem;
   height: 3rem;
   padding: 1rem;
@@ -139,6 +146,9 @@ nav li a {
   left: 94%;
   color: white;
   font-size: 2rem;
+}
+.arrows i {
+  margin-right: .5rem;
 }
 .highlight-container {
   display: flex;
@@ -302,40 +312,37 @@ nav li a {
   flex-direction: row;
   width: 60rem;
   height: 60rem;
-  margin-left: 17%;
+  margin-left: 23%;
 }
 .column {
   display: flex;
   flex-direction: column;
-  width: 25rem;
-  height: 80rem;
+  width: 20rem;
+  height: 55rem;
   margin-right: 2rem;
 }
 .smol {
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   margin-bottom: 2rem;
 }
 .large {
-  height: 50rem;
-  width: 25rem;
+  height: 30rem;
+  width: 20rem;
 }
 .smol-box {
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   background-color: black;
   margin-top: 2rem;
   position: relative;
 }
 .smol-box i {
   position: absolute;
-  top: 40%;
-  left: 42%;
+  top: 38%;
+  left: 38%;
   font-size: 5rem;
   color: white;
-}
-footer {
-
 }
 
 /******************************************
@@ -430,8 +437,8 @@ footer {
   .lookbook-container {
     display: flex;
     flex-direction: row;
-    width: 45rem;
-    height: 50rem;
+    width: 60rem;
+    height: 55rem;
     margin-left: 19%;
   }
   .column {
@@ -447,7 +454,7 @@ footer {
     margin-bottom: 2rem;
   }
   .large {
-    height: 30rem;
+    height: 25rem;
     width: 15rem;
   }
   .smol-box {
