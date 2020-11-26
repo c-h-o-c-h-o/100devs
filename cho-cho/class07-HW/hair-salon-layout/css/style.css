@@ -23,6 +23,7 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
+  width: 100vw;
 }
 
 
@@ -314,7 +315,6 @@ nav li a {
   width: 25rem;
   height: 25rem;
   margin-bottom: 2rem;
-  
 }
 .large {
   height: 50rem;
@@ -345,9 +345,123 @@ footer {
   header img {
     padding-top: 10%;
     margin-left: 5rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
     width: 5rem; 
   }
   #lock-icon {
-    margin-right: 1rem;
+    margin-right: 5rem;
+  }
+  .hours {
+    position: absolute;
+    top: 75%;
+    right: -8%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 13rem;
+    height: 1rem;
+    margin: 0 auto;
+  }
+  .landing-bottom {
+    position: relative;
+    margin-top: 8rem;
+  }
+  .arrows {
+    position: absolute;
+    bottom: 10%;
+    left: 90%;
+    color: white;
+    font-size: 2rem;
+  }
+  #beauticians {
+    margin-left: 20%;
+  }
+  .momentum {
+    margin-right: 2rem;
+    width: 25%;
+    margin-top: 1%;
+  }
+  #momentum-right {
+    position: relative;
+    background-image: url(../momentum-pic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10%;
+  }
+  #momentum-right i {
+    position: absolute;
+    top: 18%;
+    right: 42%;
+    font-size: 3rem;
+    color: white;
+  }
+  #momentum-left {
+    margin-left: 20%;
+    margin-right: 9%;
+  }
+  #left-peep {
+    margin-left: 20%;
+  }
+  .peeps {
+    position: relative;
+    width: 17%;
+    margin-top: 5%;
+    margin-right: 4%;
+  }
+  .peep-box {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    width: 12rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
+  }
+  .coupon-box {
+    background-image: url(../coupon-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 56rem;
+    height: 25rem;
+    margin-left: 16%;
+  }
+  .lookbook-container {
+    display: flex;
+    flex-direction: row;
+    width: 45rem;
+    height: 50rem;
+    margin-left: 19%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 50rem;
+    margin-right: 2rem;
+  }
+  .smol {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+  }
+  .large {
+    height: 30rem;
+    width: 15rem;
+  }
+  .smol-box {
+    width: 15rem;
+    height: 15rem;
+    background-color: black;
+    margin-top: 2rem;
+    position: relative;
+  }
+  .smol-box i {
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    font-size: 5rem;
+    color: white;
+  }
 }
