@@ -2,19 +2,282 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
+  	<meta name="description" content="Restaurant demo">
   	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blank Template</title>
+	<title>Restaurant Webpage</title>
 	
 	<!-- external CSS link -->
 	
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 	</head>
 	<body>
-
+		<div>
+			<header>
+				<nav>
+					<ul>
+						<li><a href=#>Home</a></li>
+						<li><a href=#>About Us</a></li>
+						<li><a href=#>Menu</a></li>
+						<li><a href=#>Order Now</a></li>
+						<li><a href=#>Blog</a></li>
+						<li><a href=#>Location</a></li>
+						<li><i class="fas fa-shopping-cart"></i></li>
+						<li><i class="fas fa-search"></i></li>
+					</ul>
+				</nav>
+			</header>
+			<section class='landing'>
+				<section class='h1-container'>
+					<div class='h1-content'>
+						<h1>Welcome to ChoCho's Cafe</h1>
+					</div>
+					<div class='landing-mid'>
+						<div class='search'>
+							<i class="fas fa-search"></i>
+						</div>
+						<input type='text' placeholder='Search here'>
+						<select name='Location' id='Location'>
+							<option value='Location'>Location</option>
+						</select>
+					</div>
+					<div class='landing-icons'>
+						<a href=#><i class="fab fa-facebook-f"></i> 252k</a>
+						<a href=#><i class="fab fa-twitter"></i> 62k</a>
+						<a target='_blank' href='https://www.instagram.com/cookedbyakorean/?hl=en'><i class="fab fa-instagram"></i> 55k</a>
+					</div>
+				</section>
+				<div class='raviolo-container'></div>
+			</section>
+		</div>
+		<div class='about-us-container'>
+			<div class='croissant-container'></div>
+			<section class='about-us-content'>
+				<span>About us</span>
+				<h2>Discover Our Restaurant Story</h2>
+				<p>ChoCho's Cafe offers delicious, expertly executed meals and artisanal baked goods. Study, relax, or hang out at our second floor lounge or sit down for a proper meal in our dining room. In a rush? Grab our signature brisket sandwich to-go or a loaf of fresh baked sourdough. </p>
+				<p>ChoCho's Cafe is proud to offer small intimate cooking classes for up to 10 people. Learn how to bake sourdough, make fresh pasta dough, or how to handle a knife properly!</p>
+				<div class='menu-container'>
+					<div class='discover-menu-box'>
+						<a href=#>Discover Menu</a>
+					</div>
+					<div class='menu-arrow'>
+						<a href=#><i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class='food-container'>
+			<section class='food-container-top'>
+				<span>Order Online Now</span>
+				<h2>Our Menu Items</h2>
+				<a class='menu-anchors' href=#>Breakfast</a>
+				<a class='menu-anchors' href=#>Lunch</a>
+				<a class='menu-anchors' href=#>Dinner</a>
+				<a class='menu-anchors' href=#>Bakery</a>
+				<a class='menu-anchors' href=#>To-Go</a>
+			</section>
+			<section class='food-row'>
+				<div class='hoverwrapper'>
+					<div class='image'>
+						<img class='food' src='raviolo.jpg' alt='tasty food'>
+					</div>
+					<div class='food-description'>
+						<span>$30.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Raviolo</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+				<div class='hoverwrapper'>
+					<div class='image2'>
+						<img class='food' src='duckbreast.jpg' alt='food i cook'>
+					</div>
+					<div class='food-description' id='duck'>
+						<span>$40.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Duck Breast</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+				<div class='hoverwrapper'>
+					<div class='image3'>
+						<img class='food' src='assshrooms.jpg' alt='this is delicious'>
+					</div>
+					<div class='food-description' id='shrooms'>
+						<span>$15.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Assorted Mushrooms</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+				<div class='hoverwrapper'>
+					<div class='image4'>
+						<img class='food' src='avotoast.jpg' alt='made this too'>
+					</div>
+					<div class='food-description' id='avotoast'>
+						<span>$10.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Avocado Toast</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='food-row'>
+				<div class='hoverwrapper'>
+					<div class=image5>
+						<img class='food' src='pappardelle.jpg' alt='fucking love pappardelle'>
+					</div>
+					<div class='food-description'>
+						<span>$25.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Pappardelle</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+				<div class='hoverwrapper'>
+					<div class='image6'>
+						<img class='food' src='romansquarepizza.jpg' alt='these are crack'>
+					</div>
+					<div class='food-description' id='pizza'>
+						<span>$25.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Roman Squares</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+				<div class='hoverwrapper'>
+					<div class='image7'>
+						<img class='food' src='arancini.jpg' alt='5/7'>
+					</div>
+					<div class='food-description' id='arancini'>
+						<span>$15.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Arancini</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+				<div class='hoverwrapper'>
+					<div class='image8'>
+						<img class='food' src='porkchop.jpg' alt='mmmm pork chops'>
+					</div>
+					<div class='food-description' id='porkchops'>
+						<span>$40.00</span>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h4>Berkshire Porkchops</h4>
+						<div class='order-now-box'>
+							<a href=#>Order Now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+			</div>
+		</div>
+		<div>
+			<span>Book Table</span>
+			<h2>Hours of Operation</h2>
+			<i class="fas fa-phone-alt"></i>
+			<span>Call Now</span>
+			<span>+12345 678 910</span>
+			<div>
+				<section>
+					<h4>Monday to Tuesday</h4>
+					<p>9:00 am - 10:00 pm</p>
+				</section>
+				<section>
+					<h4>Friday to Sunday</h4>
+					<p>11:00 am - 11:00 pm</p>
+				</section>
+			</div>
+			<div>
+				<div>
+					<i class="fas fa-angle-left"></i>
+				</div>
+				<div>
+					<i class="far fa-play-circle"></i>
+				</div>
+				<div>
+					<i class="fas fa-angle-right"></i>
+				</div>
+			</div>
+		</div>
+		<div>
+			<span>Reviews</span>
+			<h3>Our reviews</h3>
+			<img id='Karen' src='' alt='Karen'>
+			<h5>Karen Doe</h5>
+			<span>Etsy creative entrepeneur</span>
+			<i class="fas fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<p>So we ordered the 32oz Bone-in Ribeye and the waiter had the AUDACITY to make sure he heard us correctly when we said we wanted it medium-well. I don't know about you, but I don't go to a restaurant and pay $120 for a steak to have it arrive practically moo-ing on my plate. When my husband and I go out for steak, we go out for that char and a hearty slab that you can really dig your teeth into. Now this rude waiter was just the start of our problems. We explicitly called the restaurant ahead of time to let them know we had a show to catch and would need to be out the door at 7pm. The hostess assured us that would be no problem. Unfortunately, we arrived at 6:30pm due to traffic and they told us that ordering a 32oz bone-in steak would be impossible to cook in such a short amount of time and urged us to order something different. Now this was the last straw! My husband and I downed our Rose and hastily made our exit but were apprehended by the "manager" who claimed that we needed to pay for our meal before we left for our show. Well I say if we take the time to come out to YOUR restaurant and pay you OUR money, that we only need to pay if we receive the food we wanted in the first place! Which we most certainly did not! We will not be returning!!!</p>
+			<div>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+				<i class="fas fa-circle"></i>
+			</div>
+		</div>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

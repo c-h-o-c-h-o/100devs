@@ -65,7 +65,8 @@ nav li a {
   background-image: url(../landing-page-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 0px 0px 10% 50%;
+  border-radius: 0px 0px 135px 50%;
+  transform: skewY(7deg);
 }
 .h1-container {
   color: white;

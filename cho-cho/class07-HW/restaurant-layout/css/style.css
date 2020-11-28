@@ -22,7 +22,8 @@
 /*******************************************/
 
 body {
-
+  width: 100vw;
+  font-family: 'Crimson Text', serif;
 }
 
 
@@ -30,9 +31,327 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  z-index: 1;
+  color: white;
+  font-size: 1.5rem;
 }
-
+header li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.landing {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 40rem;
+  background: linear-gradient(65deg, rgb(226,235,240) 33%, rgb(177,118,85) 75%);
+}
+.h1-container {
+  width: 60%;
+  height: 40rem;
+}
+.h1-content {
+  width: 75%;
+  font-size: 3rem;
+  padding-left: 18rem;
+  margin-top: 10rem;
+}
+.h1-content h1 {
+  margin-bottom: 1rem;
+}
+.landing-mid {
+  position: relative;
+  margin-left: 19rem;
+  margin-bottom: 2.5rem;
+}
+.search {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  display: inline-block;
+}
+::placeholder {
+  padding-left: 2rem;
+}
+.landing-icons {
+  margin-left: 19rem;
+  font-size: 1.2rem;
+}
+.landing-icons a {
+  padding-right: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.landing-icons i {
+  color: rgb(253,135,0);
+}
+.raviolo-container {
+  background-image: url(../raviolobackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  width: 40%;
+  height: 40rem;
+  border-radius: 0% 100% 0% 98% / 72% 28% 0% 28%;
+}
+.about-us-container {
+  width: 100vw;
+  height: 45rem;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(65deg, rgb(226,235,240) 33%, rgb(177,118,85) 75%);
+}
+.croissant-container {
+  background-image: url(../croissants.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100% 31% 100% 0% / 33% 0% 31% 67%;
+  width: 60%;
+}
+.about-us-content {
+  width: 40%;
+  padding-left: 6rem;
+  padding-top: 8rem;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+}
+.about-us-content span {
+  color: rgb(253,135,0);
+  font-size: 1.2rem;
+}
+.about-us-content h2 {
+  font-size: 2.5rem;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+.discover-menu-box {
+  background-color: rgb(253,135,0);
+  width: 13rem;
+  height: 4rem;
+  border-radius: 15px 0 0 15px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.discover-menu-box a {
+  color: white;
+  text-decoration: none;
+}
+.menu-arrow {
+  height: 4rem;
+  width: 3.5rem;
+  padding-left: 1rem;
+  padding-top: 1.2rem;
+  background-color: rgb(255,170,77);
+  border-radius: 0 15px 15px 0;
+}
+.menu-arrow a {
+  color: white;
+  text-decoration: none;
+}
+.food-container {
+  background-color: rgb(230,237,239);
+  width: 100vw;
+  height: 80rem;
+}
+.food-container-top {
+  padding-top: 5rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.food-container-top span {
+  color: rgb(253,135,0);
+  font-size: 1.2rem;
+}
+.food-container-top h2 {
+  font-size: 3rem;
+}
+.menu-anchors {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+}
+.menu-anchors:hover {
+  color:rgb(253,135,0);
+  border-bottom: 1px solid rgb(253,135,0);
+}
+.food-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6%;
+  position: relative;
+}
+.food {
+  width: 25rem;
+  height: 25rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.image, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+  height: 25rem;
+  width: 25rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.image:after, .image5:after {
+  content:'\A';
+  position: absolute;
+  width:25rem; 
+  height:25rem;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.image:hover:after, .image5:hover:after {
+  opacity:1;
+}
+.image2:after, .image6:after {
+  content: '\A';
+  position: absolute;
+  width:25rem; 
+  height:25rem;
+  top: 0;
+  left: 27rem;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.image2:hover:after, .image6:hover:after {
+  opacity:1;
+}
+.image3:after, .image7:after {
+  content: '\A';
+  position: absolute;
+  width:25rem; 
+  height:25rem;
+  top: 0;
+  left: 54rem;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.image3:hover:after, .image7:hover:after {
+  opacity:1;
+}
+.image4:after, .image8:after {
+  content: '\A';
+  position: absolute;
+  width:25rem; 
+  height:25rem;
+  top: 0;
+  left: 81rem;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.image4:hover:after, .image8:hover:after {
+  opacity:1;
+}
+.hoverwrapper:hover .food-description {
+  display: inherit;
+}
+.food-description {
+  position: absolute;
+  top: 22%;
+  left: 5.5%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  display: none;
+}
+.food-description h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.food-description span {
+  display: block;
+  padding-bottom: 1rem;
+}
+.food-description i {
+  color: rgb(253,135,0);
+}
+.order-now-box {
+  position: relative;
+  width: 12.5rem;
+  height: 4rem;
+  background-color: rgb(253,135,0);
+  border-radius: 10px;
+}
+.order-now-box a {
+  position: absolute;
+  top: .75rem;
+  left: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+#duck, #pizza {
+  position: absolute;
+  top: 22%;
+  left: 29.5%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+#shrooms {
+  position: absolute;
+  top: 22%;
+  left: 51.5%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+#shrooms .order-now-box {
+  margin-left: 2rem;
+}
+#avotoast {
+  position: absolute;
+  top: 22%;
+  left: 77%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+#arancini {
+  position: absolute;
+  top: 22%;
+  left: 53.5%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+#porkchops {
+  position: absolute;
+  top: 22%;
+  left: 76%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+#porkchops .order-now-box {
+  margin-left: 2rem;
+}
 footer {
 
 }
