@@ -59,7 +59,7 @@ header ul {
   background: linear-gradient(65deg, rgb(226,235,240) 33%, rgb(177,118,85) 75%);
 }
 .h1-container {
-  width: 60%;
+  width: 60vw;
   height: 40rem;
 }
 .h1-content {
@@ -102,7 +102,7 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
-  width: 40%;
+  width: 40vw;
   height: 40rem;
   border-radius: 0% 100% 0% 98% / 72% 28% 0% 28%;
 }
@@ -118,10 +118,10 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 100% 31% 100% 0% / 33% 0% 31% 67%;
-  width: 60%;
+  width: 60vw;
 }
 .about-us-content {
-  width: 40%;
+  width: 40vw;
   padding-left: 6rem;
   padding-top: 8rem;
   padding-right: 5rem;
@@ -196,6 +196,7 @@ header ul {
   border-bottom: 1px solid rgb(253,135,0);
 }
 .food-row {
+  width: 100vw;
   display: flex;
   flex-direction: row;
   margin-left: 6%;
@@ -278,7 +279,7 @@ header ul {
 .food-description {
   position: absolute;
   top: 22%;
-  left: 5.5%;
+  left: 5%;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -312,42 +313,51 @@ header ul {
 #duck, #pizza {
   position: absolute;
   top: 22%;
-  left: 29.5%;
+  left: 27.75%;
   color: white;
   font-size: 2rem;
   text-align: center;
 }
+#duck .order-now-box, #pizza .order-now-box {
+  margin-left: .5rem;
+}
 #shrooms {
   position: absolute;
   top: 22%;
-  left: 51.5%;
+  left: 48.5%;
   color: white;
   font-size: 2rem;
   text-align: center;
 }
 #shrooms .order-now-box {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
 }
 #avotoast {
   position: absolute;
   top: 22%;
-  left: 77%;
+  left: 72.5%;
   color: white;
   font-size: 2rem;
   text-align: center;
+}
+#avotoast .order-now-box {
+  margin-left: .5rem;
 }
 #arancini {
   position: absolute;
   top: 22%;
-  left: 53.5%;
+  left: 50%;
   color: white;
   font-size: 2rem;
   text-align: center;
 }
+#arancini .order-now-box {
+  margin-left: .25rem;
+}
 #porkchops {
   position: absolute;
   top: 22%;
-  left: 76%;
+  left: 71.5%;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -611,10 +621,10 @@ header ul {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 100% 31% 100% 0% / 33% 0% 31% 67%;
-    width: 60%;
+    width: 60vw;
   }
   .about-us-content {
-    width: 40%;
+    width: 40vw;
     padding-left: 6rem;
     padding-top: 5rem;
     padding-right: 5rem;
@@ -801,5 +811,15 @@ header ul {
   }
   #porkchops .order-now-box {
     margin-left: 1.5rem;
+  }
+}
+
+/********************************** 
+MOBILE MEDIA QUERIES **************
+**********************************/
+
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  body {
+    width: 100vw;
   }
 }
