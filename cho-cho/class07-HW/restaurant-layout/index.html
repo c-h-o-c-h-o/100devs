@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Restaurant demo">
+  	<meta name="description" content="Restaurant layout">
   	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Restaurant Webpage</title>
+	<title>ChoCho's Cafe</title>
 	
 	<!-- external CSS link -->
 	
@@ -95,7 +95,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Raviolo</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/CAsqb_Ol6Go/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Duck Breast</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/CARTizJlhJA/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -129,7 +129,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Assorted Mushrooms</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/CAbm5LiF1Sr/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -146,7 +146,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Avocado Toast</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/CAnzaxGlLs0/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -165,7 +165,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Pappardelle</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/B_3fXHslT8V/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -182,7 +182,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Roman Squares</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/B_720YVlaUk/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -199,7 +199,7 @@
 						<i class="fas fa-star"></i>
 						<h4>Arancini</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/CAT0JWJlb4u/'>Order Now</a>
 						</div>
 					</div>
 				</div>
@@ -216,64 +216,96 @@
 						<i class="fas fa-star"></i>
 						<h4>Berkshire Porkchops</h4>
 						<div class='order-now-box'>
-							<a href=#>Order Now</a>
+							<a target='_blank' href='https://www.instagram.com/p/CABDtbtl0-l/'>Order Now</a>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div>
+			<div class='scroll-icons'>
 				<i class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
-				<i class="fas fa-circle"></i>
+				<i id='big-scroll-icon' class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
 			</div>
 		</div>
-		<div>
-			<span>Book Table</span>
-			<h2>Hours of Operation</h2>
-			<i class="fas fa-phone-alt"></i>
-			<span>Call Now</span>
-			<span>+12345 678 910</span>
-			<div>
-				<section>
+		<div class='hours-background-container'>
+			<div class='hours-top'>
+				<span class='book'>Book Table</span>
+				<h2>Hours of Operation</h2>
+				<i class="fas fa-phone-alt"></i>
+				<span class='call'>Call Now</span>
+				<span class='phone'>+12345 678 910</span>
+			</div>
+			<div class='hours-container'>
+				<section class='hours'>
 					<h4>Monday to Tuesday</h4>
 					<p>9:00 am - 10:00 pm</p>
 				</section>
-				<section>
+				<section class='hours'>
 					<h4>Friday to Sunday</h4>
 					<p>11:00 am - 11:00 pm</p>
 				</section>
 			</div>
-			<div>
-				<div>
-					<i class="fas fa-angle-left"></i>
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+			
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<img class='slidepics' src='sourdoughboules.jpg' alt='sourdough'>
+					<div class="text">
+						Sourdough Boules
+					</div>
 				</div>
-				<div>
-					<i class="far fa-play-circle"></i>
+			
+				<div class="mySlides fade">
+					<img class='slidepics'src='batard.jpg' alt='sourdough'>
+					<div class="text">
+						Sourdough Batard
+					</div>
 				</div>
-				<div>
-					<i class="fas fa-angle-right"></i>
+			
+				<div class="mySlides fade">
+					<img class='slidepics' src='batardcrosssection.jpg' alt='sourdough'>
+					<div class="text">
+						Batard Cross Section
+					</div>
 				</div>
-			</div>
+			
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></a>
+				<a class="next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></a>
+			  </div>
+			  <br>
+
+			  <!-- The dots/circles -->
+			  <div class='dots'>
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			  </div>
+			
+		<!--<i class="far fa-play-circle"></i>-->		
 		</div>
-		<div>
-			<span>Reviews</span>
-			<h3>Our reviews</h3>
-			<img id='Karen' src='' alt='Karen'>
-			<h5>Karen Doe</h5>
-			<span>Etsy creative entrepeneur</span>
-			<i class="fas fa-star"></i>
-			<i class="far fa-star"></i>
-			<i class="far fa-star"></i>
-			<i class="far fa-star"></i>
-			<i class="far fa-star"></i>
-			<p>So we ordered the 32oz Bone-in Ribeye and the waiter had the AUDACITY to make sure he heard us correctly when we said we wanted it medium-well. I don't know about you, but I don't go to a restaurant and pay $120 for a steak to have it arrive practically moo-ing on my plate. When my husband and I go out for steak, we go out for that char and a hearty slab that you can really dig your teeth into. Now this rude waiter was just the start of our problems. We explicitly called the restaurant ahead of time to let them know we had a show to catch and would need to be out the door at 7pm. The hostess assured us that would be no problem. Unfortunately, we arrived at 6:30pm due to traffic and they told us that ordering a 32oz bone-in steak would be impossible to cook in such a short amount of time and urged us to order something different. Now this was the last straw! My husband and I downed our Rose and hastily made our exit but were apprehended by the "manager" who claimed that we needed to pay for our meal before we left for our show. Well I say if we take the time to come out to YOUR restaurant and pay you OUR money, that we only need to pay if we receive the food we wanted in the first place! Which we most certainly did not! We will not be returning!!!</p>
-			<div>
+		<div class='review-background-container'>
+			<div class='reviews'>
+				<span class='review'>Reviews</span>
+				<h3>Our reviews</h3>
+				<img id='Karen' src='karen.jpg' alt='Karen'>
+				<span class='name'>Karen Doe</span>
+				<span class='job'>Etsy Creative Entrepeneur</span>
+				<i class="fas fa-star"></i>
+				<i class="far fa-star"></i>
+				<i class="far fa-star"></i>
+				<i class="far fa-star"></i>
+				<i class="far fa-star"></i>
+				<p>So we ordered the 32oz Bone-in Ribeye and the waiter had the AUDACITY to make sure he heard us correctly when we said we wanted it medium-well. I don't know about you, but I don't go to a restaurant and pay $120 for a steak to have it arrive practically moo-ing on my plate. When my husband and I go out for steak, we go out for that char and a hearty slab that you can really dig your teeth into. Now this rude waiter was just the start of our problems. We explicitly called the restaurant ahead of time to let them know we had a show to catch and would need to be out the door at 7pm. The hostess assured us that would be no problem. Unfortunately, we arrived at 6:30pm due to traffic and they told us that ordering a 32oz bone-in steak would be impossible to cook in such a short amount of time and urged us to order something different. Now this was the last straw! My husband and I downed our Rose and hastily made our exit but were apprehended by the "manager" who claimed that we needed to pay for our meal before we left for our show. Well I say if we take the time to come out to YOUR restaurant and pay you OUR money, that we only need to pay if we receive the food we wanted in the first place! Which we most certainly did not! We will not be returning!!!</p>
+			</div>
+			<div class='review-circles'>
 				<i class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
-				<i class="fas fa-circle"></i>
+				<i id='mid-circle' class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
 				<i class="fas fa-circle"></i>
 			</div>
