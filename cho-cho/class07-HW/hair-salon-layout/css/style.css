@@ -65,8 +65,14 @@ nav li a {
   background-image: url(../landing-page-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 0px 0px 135px 50%;
+  border-radius: 0px 0px 135px 0px;
+}
+.skew {
+  position: relative;
+  margin-top: -6rem;
   transform: skewY(7deg);
+  background-color: white;
+  height: 14rem;
 }
 .h1-container {
   color: white;
@@ -81,7 +87,7 @@ nav li a {
 .hours {
   position: absolute;
   top: 55%;
-  right: -5%;
+  right: -4.5%;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -107,6 +113,8 @@ nav li a {
   margin-top: 6rem;
 }
 .first-visit {
+  position: absolute;
+  z-index: 3;
   padding-top: 2rem;
   padding-right: 1rem;
   height: 17rem;
@@ -143,8 +151,8 @@ nav li a {
 }
 .arrows {
   position: absolute;
-  bottom: 20%;
-  left: 94%;
+  bottom: -15rem;
+  left: 92%;
   color: white;
   font-size: 2rem;
 }
@@ -154,7 +162,7 @@ nav li a {
 .highlight-container {
   display: flex;
   flex-direction: row;
-  margin-top: 7%;
+  margin-top: 3%;
 }
 #beauticians {
   margin-left: 22.5%;
@@ -362,7 +370,7 @@ nav li a {
   .hours {
     position: absolute;
     top: 75%;
-    right: -8%;
+    right: -7%;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -378,10 +386,17 @@ nav li a {
   }
   .arrows {
     position: absolute;
-    bottom: 10%;
-    left: 90%;
+    bottom: -14rem;
+    left: 88%;
     color: white;
     font-size: 2rem;
+  }
+  .skew {
+    position: relative;
+    margin-top: -4rem;
+    transform: skewY(7deg);
+    background-color: white;
+    height: 14rem;
   }
   #beauticians {
     margin-left: 20%;
