@@ -33,7 +33,7 @@ body {
 header {
   position: absolute;
   top: 4%;
-  right: 4%;
+  right: 9%;
   z-index: 1;
   color: white;
   font-size: 1.5rem;
@@ -598,8 +598,7 @@ header ul {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-@media screen and (max-width: 1280px) {
-  
+@media (resolution: 113dpi) {
   .h1-content {
     width: 85%;
     font-size: 2rem;
@@ -770,7 +769,219 @@ header ul {
     font-size: 1.5rem;
     text-align: center;
   }
-  
+  #shrooms {
+    position: absolute;
+    top: 12%;
+    left: 41.5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #shrooms .order-now-box {
+    margin-left: 1.5rem;
+  }
+  #avotoast {
+    position: absolute;
+    top: 12%;
+    left: 62.5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #avotoast .order-now-box {
+    margin-left: .5rem;
+  }
+  #arancini {
+    position: absolute;
+    top: 12%;
+    left: 43.5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #porkchops {
+    position: absolute;
+    top: 12%;
+    left: 61.5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #porkchops .order-now-box {
+    margin-left: 1.5rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .h1-content {
+    width: 85%;
+    font-size: 2rem;
+    padding-left: 12rem;
+    margin-top: 10rem;
+  }
+  .landing-mid {
+    position: relative;
+    margin-left: 12rem;
+    margin-bottom: 2.5rem;
+  }
+  .landing-icons {
+    margin-left: 12rem;
+    font-size: 1.2rem;
+  }
+  .croissant-container {
+    background-image: url(../croissants.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100% 31% 100% 0% / 33% 0% 31% 67%;
+    width: 60vw;
+  }
+  .about-us-content {
+    width: 40vw;
+    padding-left: 6rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    font-size: 1.2rem;
+  }
+  .about-us-content h2 {
+    font-size: 2rem;
+  }
+  .discover-menu-box {
+    background-color: rgb(253,135,0);
+    width: 13rem;
+    height: 4rem;
+    border-radius: 15px 0 0 15px;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+  .food-container {
+    background-color: rgb(230,237,239);
+    width: 100vw;
+    height: 62rem;
+  }
+  .food {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .image, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+    height: 15rem;
+    width: 15rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .image:after, .image5:after {
+    content:'\A';
+    position: absolute;
+    width:15rem; 
+    height:15rem;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  .image:hover:after, .image5:hover:after {
+    opacity:1;
+  }
+  .image2:after, .image6:after {
+    content: '\A';
+    position: absolute;
+    width:15rem; 
+    height:15rem;
+    top: 0;
+    left: 16rem;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  .image2:hover:after, .image6:hover:after {
+    opacity:1;
+  }
+  .image3:after, .image7:after {
+    content: '\A';
+    position: absolute;
+    width:15rem; 
+    height:15rem;
+    top: 0;
+    left: 32rem;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  .image3:hover:after, .image7:hover:after {
+    opacity:1;
+  }
+  .image4:after, .image8:after {
+    content: '\A';
+    position: absolute;
+    width:15rem; 
+    height:15rem;
+    top: 0;
+    left: 48rem;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  .image4:hover:after, .image8:hover:after {
+    opacity:1;
+  }
+  .hoverwrapper:hover .food-description {
+    display: inherit;
+  }
+  .food-description {
+    position: absolute;
+    top: 12%;
+    left: 3.5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+  }
+  .food-description h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .food-description span {
+    display: block;
+    padding-bottom: 1rem;
+  }
+  .food-description i {
+    color: rgb(253,135,0);
+  }
+  .food-row {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    position: relative;
+  }
+  .order-now-box {
+    position: relative;
+    width: 10rem;
+    height: 4rem;
+    background-color: rgb(253,135,0);
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .order-now-box a {
+    position: absolute;
+    top: .75rem;
+    left: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  #duck, #pizza {
+    position: absolute;
+    top: 12%;
+    left: 23.5%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
   #shrooms {
     position: absolute;
     top: 12%;
