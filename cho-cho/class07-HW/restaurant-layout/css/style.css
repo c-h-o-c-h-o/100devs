@@ -520,7 +520,7 @@ header ul {
 **********227 DPI MEDIA QUERY**************
 ******************************************/
 
-@media (max-resolution: 227dpi) and (max-width: 1280px) {
+@media (max-resolution: 227dpi) and (min-width: 2560px) {
   .h1-content {
     width: 85%;
     font-size: 2rem;
