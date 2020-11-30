@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-  background-image: url(../../images/background.jpg);
+  background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -39,7 +39,7 @@ h1 {
 }
 .box {
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 1%;
   border: 2px solid white;
   border-radius: 15px;
   width: 30%;

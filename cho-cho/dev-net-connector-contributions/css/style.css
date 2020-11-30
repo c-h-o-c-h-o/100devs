@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-  background-image: url(../../images/background.jpg);
+  background-image: url(../background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -34,12 +34,10 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 .box {
   margin: 0 auto;
-  margin-top: 1%;
+  margin-top: 5%;
   border: 2px solid white;
   border-radius: 15px;
   width: 30%;
@@ -48,7 +46,7 @@ h1 {
   background: linear-gradient(68deg, rgba(3,57,127,1) 25%, rgba(13,120,200,1) 75%);
 }
 .lofi {
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .lofi img {
   margin: 0 auto;
@@ -69,13 +67,19 @@ h1 {
 .submit button {
   margin-bottom: 1rem;
 }
-.log-in a {
+.submit a {
   display: block;
   text-decoration: none;
   color: rgb(113,184,248);
   padding-bottom: 1rem;
 }
-
+.sign-up {
+  margin-bottom: 1rem;
+}
+.sign-up a {
+  text-decoration: none;
+  color: rgb(113,184,248);
+}
 
 /******************************************
 /* LAYOUT
