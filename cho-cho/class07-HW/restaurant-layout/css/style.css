@@ -520,7 +520,7 @@ header ul {
 **********227 DPI MEDIA QUERY**************
 ******************************************/
 
-@media (max-resolution: 227dpi) {
+/*@media (max-resolution: 227dpi) {
   .h1-content {
     width: 85%;
     font-size: 2rem;
@@ -589,7 +589,7 @@ header ul {
     background: black;
     transition: opacity 0.5s;
   }
-}
+}*/
 /****************************************
 *******13 INCH LAPTOP MEDIA QUERY********
 ****************************************/
