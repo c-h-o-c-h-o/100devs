@@ -30,6 +30,78 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+@media (max-resolution: 227dpi) {
+  .h1-content {
+    width: 85%;
+    font-size: 2rem;
+    padding-left: 12rem;
+    margin-top: 10rem;
+  }
+  header li {
+    display: inline-block;
+    padding-right: 1rem;
+  }
+  .landing-mid {
+    position: relative;
+    margin-left: 12rem;
+    margin-bottom: 2.5rem;
+  }
+  .landing-icons {
+    margin-left: 12rem;
+    font-size: 1.2rem;
+  }
+  .croissant-container {
+    background-image: url(../croissants.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 60vw;
+  }
+  .about-us-content {
+    width: 40vw;
+    padding-left: 6rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    font-size: 1.2rem;
+  }
+  .about-us-content h2 {
+    font-size: 2rem;
+  }
+  .discover-menu-box {
+    background-color: rgb(253,135,0);
+    width: 13rem;
+    height: 4rem;
+    border-radius: 15px 0 0 15px;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+  .food-container {
+    background-color: rgb(230,237,239);
+    width: 100vw;
+    height: 87rem;
+  }
+  .pic-container {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5%;
+    margin-bottom: 3.5%;
+    position: relative;
+  }
+  .food-description:hover {
+    padding-top: 5rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    transition: opacity 0.5s;
+  }
+}
+
 .banner {
   width: 100vw;
   height: 40rem;
@@ -520,76 +592,7 @@ header ul {
 **********227 DPI MEDIA QUERY**************
 ******************************************/
 
-@media (max-resolution: 227dpi) and (min-width: 2560px) {
-  .h1-content {
-    width: 85%;
-    font-size: 2rem;
-    padding-left: 12rem;
-    margin-top: 10rem;
-  }
-  header li {
-    display: inline-block;
-    padding-right: 1rem;
-  }
-  .landing-mid {
-    position: relative;
-    margin-left: 12rem;
-    margin-bottom: 2.5rem;
-  }
-  .landing-icons {
-    margin-left: 12rem;
-    font-size: 1.2rem;
-  }
-  .croissant-container {
-    background-image: url(../croissants.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    width: 60vw;
-  }
-  .about-us-content {
-    width: 40vw;
-    padding-left: 6rem;
-    padding-top: 5rem;
-    padding-right: 5rem;
-    font-size: 1.2rem;
-  }
-  .about-us-content h2 {
-    font-size: 2rem;
-  }
-  .discover-menu-box {
-    background-color: rgb(253,135,0);
-    width: 13rem;
-    height: 4rem;
-    border-radius: 15px 0 0 15px;
-    padding-left: 3rem;
-    padding-top: 1rem;
-  }
-  .food-container {
-    background-color: rgb(230,237,239);
-    width: 100vw;
-    height: 87rem;
-  }
-  .pic-container {
-    width: 15rem;
-    height: 15rem;
-    margin-left: 5%;
-    margin-bottom: 3.5%;
-    position: relative;
-  }
-  .food-description:hover {
-    padding-top: 5rem;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: black;
-    transition: opacity 0.5s;
-  }
-}
+
 /****************************************
 *******13 INCH LAPTOP MEDIA QUERY********
 ****************************************/
