@@ -520,7 +520,7 @@ header ul {
 **********227 DPI MEDIA QUERY**************
 ******************************************/
 
-@media (max-resolution: 227dpi) {
+@media (max-resolution: 227dpi) and (max-width: 1280px) {
   .h1-content {
     width: 85%;
     font-size: 2rem;
@@ -572,9 +572,9 @@ header ul {
     height: 87rem;
   }
   .pic-container {
-    width: 25rem;
-    height: 25rem;
-    margin-left: 3.5%;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5%;
     margin-bottom: 3.5%;
     position: relative;
   }
