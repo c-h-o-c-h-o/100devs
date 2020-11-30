@@ -756,7 +756,7 @@ MOBILE MEDIA QUERIES **************
   }
   .about-us-container {
     width: 100vw;
-    height: 70rem;
+    height: 73rem;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -776,10 +776,10 @@ MOBILE MEDIA QUERIES **************
     display: flex;
     flex-direction: row;
     text-align: center; 
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
   }
   .croissant-container {
-    margin-top: 5rem;
+    margin-top: 10rem;
     background-image: url(../croissants.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -790,7 +790,7 @@ MOBILE MEDIA QUERIES **************
   .food-container {
     background-color: rgb(230,237,239);
     width: 100vw;
-    height: 258rem;
+    height: 256rem;
   }
   .food-container-top {
     padding-top: 5rem;
@@ -813,7 +813,7 @@ MOBILE MEDIA QUERIES **************
   .hours-background-container {
     background-color: rgb(246,247,249);
     width: 100vw;
-    height: 80rem;
+    height: 75.5rem;
     text-align: center;
     font-size: 1.2rem;
   }
@@ -827,7 +827,7 @@ MOBILE MEDIA QUERIES **************
   }
   .slideshow-container {
     width: 100%;
-    height: 32rem;
+    height: 30rem;
     position: relative;
     margin: auto;
     margin-top: 2.5rem;
@@ -850,6 +850,6 @@ MOBILE MEDIA QUERIES **************
   .review-background-container {
     background-color: rgb(255,255,255);
     width: 100vw;
-    height: 105rem;
+    height: 140rem;
   }
 }
