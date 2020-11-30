@@ -1,0 +1,104 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: BioRhyme;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.box {
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 30%;
+  height: auto;
+  box-shadow: 10px 10px 10px black;
+  background: linear-gradient(68deg, rgba(3,57,127,1) 25%, rgba(13,120,200,1) 75%);
+}
+.lofi {
+  margin-top: 8%;
+}
+.lofi img {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40%;
+}
+.login-form {
+  font-size: 1.2rem;
+}
+.login-form label {
+  display: block;
+  padding-bottom: 1rem;
+}
+.login-form input {
+  margin-bottom: 1rem;
+}
+.submit button {
+  margin-bottom: 1rem;
+}
+.submit a {
+  display: block;
+  text-decoration: none;
+  color: rgb(113,184,248);
+  padding-bottom: 1rem;
+}
+.sign-up {
+  margin-bottom: 1rem;
+}
+.sign-up a {
+  text-decoration: none;
+  color: rgb(113,184,248);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+footer a {
+  text-decoration: none;
+  color: rgb(113,184,248);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 1000px) {
+  .box {
+    margin-top: 0%;
+    width: 100%;
+    height: auto;
+    border-style: none;
+    box-shadow: none;
+    background: none;
+  }
+}
