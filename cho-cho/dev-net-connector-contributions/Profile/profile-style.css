@@ -1,0 +1,154 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  background-image: url(../background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  font-family: BioRhyme;
+}
+h1 {
+  clear: both;
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-style: bold;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  float: right;
+  margin-right: 2%;
+}
+header li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+header a {
+  text-decoration: none;
+  color: rgb(113,184,248);
+}
+header a:hover {
+  color: white;
+  transition: .5s;
+}
+.profile {
+  margin: 0 auto;
+  width: 35%;
+}
+.profile img {
+  margin: 0 auto;
+  margin-top: 25%;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 50%;
+  box-shadow: 5px 5px 5px black;
+}
+.profile .username {
+  margin-top: 0;
+  color:white;
+  font-size: 3rem;
+}
+.personal-info {
+  margin: 0 auto;
+  margin-bottom: 2%;
+  width: 100%;
+  font-size: 2rem;
+}
+.personal-info h2 {
+  font-size: 3rem;
+  color: white;
+}
+.personal-info p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.personal-info a {
+  text-decoration: none;
+  color: black;
+}
+.personal-info i {
+  color: white;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.stats {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+.stats h3 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.stats i {
+  color: black;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+.box {
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 45%;
+  height: auto;
+  box-shadow: 10px 10px 10px black;
+  background: linear-gradient(68deg, rgba(3,57,127,1) 25%, rgba(13,120,200,1) 75%);
+}
+footer a {
+  text-decoration: none;
+  color: rgb(113,184,248);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 1024px) {
+  .box {
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: none;
+    background: none;
+  }
+}
