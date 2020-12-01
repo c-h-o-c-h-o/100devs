@@ -60,14 +60,14 @@ header a:hover {
 }
 .profile {
   margin: 0 auto;
-  width: 35%;
+  width: 50%;
 }
 .profile img {
   margin: 0 auto;
-  margin-top: 25%;
+  margin-top: 15%;
   border-radius: 50%;
   border: 1px solid black;
-  width: 50%;
+  width: 35%;
   box-shadow: 5px 5px 5px black;
 }
 .profile .username {
@@ -150,5 +150,14 @@ footer a {
     border-radius: 15px;
     box-shadow: none;
     background: none;
+  }
+  .profile {
+    width: 100%;
+  }
+  .stats {
+    width: 100%;
+  }
+  .profile img {
+    margin-top: 5%;
   }
 }
