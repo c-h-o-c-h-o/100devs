@@ -97,4 +97,8 @@ footer a {
     box-shadow: none;
     background: none;
   }
+  .login-form input {
+    margin-bottom: 1rem;
+    width: 60%;
+  }
 }
