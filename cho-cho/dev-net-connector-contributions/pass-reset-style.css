@@ -90,11 +90,15 @@ footer a {
 /*******************************************/
 @media screen and (max-width: 1024px) {
   .box {
-    margin-top: 5%;
+    margin-top: 10%;
     width: 100%;
     height: auto;
     border-style: none;
     box-shadow: none;
     background: none;
+  }
+  .login-form input {
+    margin-bottom: 1rem;
+    width: 60%;
   }
 }
