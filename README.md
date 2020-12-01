@@ -61,6 +61,7 @@ This walks you through setting up a virtual machine on your computer so you can 
 O almost forgot, as an added bonus, those of us who are active in this repo should all vote on the best submission for each week's assignment. Once we choose the best user submission, I'll deploy the site on Netlify to show off to our classmates!
 
 The current sites in this repo are deployed here: 
+* https://elated-thompson-8a8cfe.netlify.app/ (Login/Sign-up/Pass-Reset Page designs for dev-net-connector)
 * https://chochoscafe.netlify.app/ (ChoCho's Cafe)
 * https://festive-bhabha-d49541.netlify.app/ (Hair Salon Layout)
 * https://pensive-roentgen-9ba248.netlify.app/ (Level Ground)
