@@ -77,7 +77,10 @@ h1 {
   color: rgb(113,184,248);
   padding-bottom: 1rem;
 }
-
+a:hover {
+  color: white;
+  transition: .5s;
+}
 
 /******************************************
 /* LAYOUT
@@ -86,6 +89,7 @@ footer a {
   text-decoration: none;
   color: rgb(113,184,248);
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES

@@ -81,6 +81,10 @@ h1 {
   text-decoration: none;
   color: rgb(113,184,248);
 }
+a:hover {
+  color: white;
+  transition: .5s;
+}
 
 /******************************************
 /* LAYOUT

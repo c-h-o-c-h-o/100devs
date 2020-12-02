@@ -76,6 +76,10 @@ h1 {
   color: rgb(113,184,248);
   padding-bottom: 1rem;
 }
+a:hover {
+  color: white;
+  transition: .5s;
+}
 
 
 /******************************************
