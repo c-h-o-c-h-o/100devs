@@ -1,0 +1,64 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0 auto;
+  text-align:center;
+  width: 100vw;
+  height: auto;
+}
+.confetti {
+  background-image: url(../confetti.gif);
+  background-size: cover;
+}
+#shame {
+  width: 20rem;
+  height: auto;
+}
+.hidden {
+  display: none;
+}
+.butans {
+  margin-top: 1rem;
+}
+i {
+  font-size: 3rem;
+}
+#check {
+  color: green;
+}
+#x {
+  color: red;
+}
+footer {
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
