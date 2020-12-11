@@ -30,6 +30,7 @@ function bell() {
 }
 
 function stats() {
+    const username = document.querySelector('#username').value
     document.querySelector('#output1').innerHTML = `${username} has pushed code ${confetti_counter} times!`
     document.querySelector('#output2').innerHTML = `${username} has slacked off ${x_counter} times!` 
 }
