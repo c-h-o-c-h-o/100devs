@@ -62,7 +62,7 @@ O almost forgot, as an added bonus, those of us who are active in this repo shou
 
 The current sites in this repo are deployed here: 
 * https://angry-perlman-357bc5.netlify.app/ (Profile page and Add New Contacts Page)
-* https://elated-thompson-8a8cfe.netlify.app/ (Login/Sign-up/Pass-Reset Page designs for dev-net-connector)
+* https://simple-login-signup-mockups.netlify.app/ (Login/Sign-up/Pass-Reset Page designs for dev-net-connector)
 * https://chochoscafe.netlify.app/ (ChoCho's Cafe)
 * https://festive-bhabha-d49541.netlify.app/ (Hair Salon Layout)
 * https://pensive-roentgen-9ba248.netlify.app/ (Level Ground)
