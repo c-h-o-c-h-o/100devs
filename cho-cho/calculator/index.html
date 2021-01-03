@@ -14,11 +14,22 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
 	</head>
 	<body>
-		<div class='calculator'>
+		
+		<div id='border-toggle' class='calculator light-mode'>
+			<header>
+				<div id='reveal' class='hidden'>
+					<label for='fix'>Fix it</label>
+					<input type='checkbox' id='fix' name='fix'>
+				</div>
+				<div>
+					<label class="switch">
+						<input type="checkbox" id='toggle'>
+						<span class="slider round"></span>
+					</label>
+				</div>
+			</header>
 			<div class='h1-container'>
 				<h1>Calculator</h1>
-				<label for='Fix-it'>Fix it</label>
-				<input type='checkbox' id='Fix-it' name='Fix-it'>
 			</div>
 			<div>
 				<input id='result' type='text' placeholder= 0 readonly>
@@ -34,7 +45,7 @@
 				<div class='butans' id='change'>
 					<span>+/-</span>
 				</div>
-				<div class='butans' id ='div'>
+				<div class='butans' id='div'>
 					<i class="fas fa-divide"></i>
 				</div>
 			</div>
