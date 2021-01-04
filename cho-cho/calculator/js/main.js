@@ -133,154 +133,193 @@ const del = () => {
     document.querySelector('#result').value = document.querySelector('#result').value.slice(0,-1)
 }
 const zero = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 1
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 1
+            } else {
+                document.querySelector('#result').value += 1
+            }
         } else {
-            document.querySelector('#result').value += 1
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 0
-        } else {
-            document.querySelector('#result').value += 0
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 0
+            } else {
+                document.querySelector('#result').value += 0
+            }
         }
     }
 }
 const one = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 0
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 0
+            } else {
+                document.querySelector('#result').value += 0
+            }
         } else {
-            document.querySelector('#result').value += 0
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 1
-        } else {
-            document.querySelector('#result').value += 1
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 1
+            } else {
+                document.querySelector('#result').value += 1
+            }
         }
     }
+ 
 }
 const two = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 1
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 1
+            } else {
+                document.querySelector('#result').value += 1
+            }
         } else {
-            document.querySelector('#result').value += 1
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 2
-        } else {
-            document.querySelector('#result').value += 2
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 2
+            } else {
+                document.querySelector('#result').value += 2
+            }
         }
     }
+  
 }
 const three = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 2
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 2
+            } else {
+                document.querySelector('#result').value += 2
+            }
         } else {
-            document.querySelector('#result').value += 2
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 3
-        } else {
-            document.querySelector('#result').value += 3
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 3
+            } else {
+                document.querySelector('#result').value += 3
+            }
         }
     }
+ 
 }
 const four = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 3
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 3
+            } else {
+                document.querySelector('#result').value += 3
+            }
         } else {
-            document.querySelector('#result').value += 3
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 4
-        } else {
-            document.querySelector('#result').value += 4
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 4
+            } else {
+                document.querySelector('#result').value += 4
+            }
         }
     }
+   
 }
 const five = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 4
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 4
+            } else {
+                document.querySelector('#result').value += 4
+            }
         } else {
-            document.querySelector('#result').value += 4
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 5
-        } else {
-            document.querySelector('#result').value += 5
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 5
+            } else {
+                document.querySelector('#result').value += 5
+            }
         }
     }
+   
 }
 const six = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 5
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 5
+            } else {
+                document.querySelector('#result').value += 5
+            }
         } else {
-            document.querySelector('#result').value += 5
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 6
-        } else {
-            document.querySelector('#result').value += 6
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 6
+            } else {
+                document.querySelector('#result').value += 6
+            }
         }
     }
+   
 }
 const sev = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 6
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 6
+            } else {
+                document.querySelector('#result').value += 6
+            }
         } else {
-            document.querySelector('#result').value += 6
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 7
-        } else {
-            document.querySelector('#result').value += 7
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 7
+            } else {
+                document.querySelector('#result').value += 7
+            }
         }
     }
+  
 }
 const eight = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 7
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 7
+            } else {
+                document.querySelector('#result').value += 7
+            }
         } else {
-            document.querySelector('#result').value += 7
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 8
-        } else {
-            document.querySelector('#result').value += 8
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 8
+            } else {
+                document.querySelector('#result').value += 8
+            }
         }
     }
+   
 }
 const nine = () => {
-    if (!document.getElementById('fix').checked) {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 8
+    let len = document.querySelector('#result').value.length
+    if (len<= 11) {
+        if (!document.getElementById('fix').checked) {
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 8
+            } else {
+                document.querySelector('#result').value += 8
+            }
         } else {
-            document.querySelector('#result').value += 8
-        }
-    } else {
-        if (document.querySelector('#result').value == '') {
-            document.querySelector('#result').value = 9
-        } else {
-            document.querySelector('#result').value += 9
+            if (document.querySelector('#result').value == '') {
+                document.querySelector('#result').value = 9
+            } else {
+                document.querySelector('#result').value += 9
+            }
         }
     }
+    
 }
 
 /**************Event Listeners****************/
