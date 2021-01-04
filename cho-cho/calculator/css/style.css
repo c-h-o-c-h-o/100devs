@@ -157,3 +157,8 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+@media screen and (max-width: 1024px) {
+  .calculator {
+    margin-top: 0;
+  }
+}
