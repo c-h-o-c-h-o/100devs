@@ -161,4 +161,7 @@ footer {
   .calculator {
     margin-top: 0;
   }
+  #result {
+    width: 90%;
+  }
 }
