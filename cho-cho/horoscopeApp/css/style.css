@@ -1,0 +1,111 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'StaffMeetingPlain';
+  width: 100%;
+  height: auto;
+  background: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.25rem;
+}
+#label {
+  font-size: 1rem;
+}
+.container {
+  margin-top: 5%;
+  margin-left: 8%;
+  text-align: center;
+  width: 50%;
+}
+.h1-box {
+  text-align: center;
+}
+#dob {
+  margin-top: 1rem;
+}
+.reveal {
+  text-align: center;
+  padding-top: 2rem;
+}
+.hidden {
+  display: none;
+}
+.gifs {
+  width: 80%;
+  height: auto;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+  margin-top: 5%;
+  width: 100%;
+}
+footer h3 {
+  font-size: 1rem;
+}
+footer p {
+  font-size: .9rem;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: white;
+  transition: .5s;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  body {
+    color: white;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}

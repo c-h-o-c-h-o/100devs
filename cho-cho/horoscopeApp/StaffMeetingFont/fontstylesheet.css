@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'StaffMeetingPlain';
+    src: url('StaffMeetingPlain.woff2') format('woff2'),
+        url('StaffMeetingPlain.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
