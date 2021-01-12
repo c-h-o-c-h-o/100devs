@@ -2,7 +2,7 @@
 let num1, num2, op, checkbox
 counter = 0
 let body = document.querySelector('body')
-
+let butans = document.getElementsByClassName('butans')
 /******** FUNCTIONS ********/
 const light = () => {
     if (document.getElementById('toggle').checked) {
@@ -10,50 +10,17 @@ const light = () => {
         body.style.color = 'black'
         body.style.transition = '.5s'
         document.getElementById('border-toggle').style.borderColor = 'black'
-        document.getElementById('ac').style.borderColor = 'black'
-        document.getElementById('del').style.borderColor = 'black'
-        document.getElementById('change').style.borderColor = 'black'
-        document.getElementById('div').style.borderColor = 'black'
-        document.getElementById('sev').style.borderColor = 'black'
-        document.getElementById('eight').style.borderColor = 'black'
-        document.getElementById('nine').style.borderColor = 'black'
-        document.getElementById('times').style.borderColor = 'black'
-        document.getElementById('four').style.borderColor = 'black'
-        document.getElementById('five').style.borderColor = 'black'
-        document.getElementById('six').style.borderColor = 'black'
-        document.getElementById('subtract').style.borderColor = 'black'
-        document.getElementById('one').style.borderColor = 'black'
-        document.getElementById('two').style.borderColor = 'black'
-        document.getElementById('three').style.borderColor = 'black'
-        document.getElementById('plus').style.borderColor = 'black'
-        document.getElementById('zero').style.borderColor = 'black'
-        document.getElementById('decimal').style.borderColor = 'black'
-        document.getElementById('equals').style.borderColor = 'black'
-        document.getElementById('result').style.borderStyle = 'black'
+        for (let butan of butans) {
+            butan.style.borderColor = 'black'
+        }
     } else {
         body.style.backgroundColor = 'black'
         body.style.color = 'white'
         body.style.transition = '.5s'
         document.getElementById('border-toggle').style.borderColor = 'white'
-        document.getElementById('ac').style.borderColor = 'white'
-        document.getElementById('del').style.borderColor = 'white'
-        document.getElementById('change').style.borderColor = 'white'
-        document.getElementById('div').style.borderColor = 'white'
-        document.getElementById('sev').style.borderColor = 'white'
-        document.getElementById('eight').style.borderColor = 'white'
-        document.getElementById('nine').style.borderColor = 'white'
-        document.getElementById('times').style.borderColor = 'white'
-        document.getElementById('four').style.borderColor = 'white'
-        document.getElementById('five').style.borderColor = 'white'
-        document.getElementById('six').style.borderColor = 'white'
-        document.getElementById('subtract').style.borderColor = 'white'
-        document.getElementById('one').style.borderColor = 'white'
-        document.getElementById('two').style.borderColor = 'white'
-        document.getElementById('three').style.borderColor = 'white'
-        document.getElementById('plus').style.borderColor = 'white'
-        document.getElementById('zero').style.borderColor = 'white'
-        document.getElementById('decimal').style.borderColor = 'white'
-        document.getElementById('equals').style.borderColor = 'white'
+        for (let butan of butans) {
+            butan.style.borderColor = 'white'
+        }
     }
 }
 const add = () => {
@@ -346,4 +313,3 @@ document.querySelector('#sev').addEventListener('click', sev)
 document.querySelector('#eight').addEventListener('click', eight)
 document.querySelector('#nine').addEventListener('click', nine)
 
-/*******Reveal fix-it *******/
