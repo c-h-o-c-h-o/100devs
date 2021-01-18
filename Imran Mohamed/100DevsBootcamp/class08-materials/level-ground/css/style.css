@@ -1,0 +1,127 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+font-size: 62.5%;
+width: 100vw;
+padding: 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+color: white;
+background-color: rgba(102, 118,138,1);
+padding: 1% 0;
+font-size: 0.7rem;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  
+}
+footer {background-color: rgb(22, 32,42);
+  color: white;
+
+}
+footer a{
+  color:white;
+  text-decoration: none;
+  margin-right: 1%;
+}
+.sitemap{
+  float: left;
+}
+.contact{
+  float: right;
+}
+.smallprint{
+  clear: both;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+ul{
+  list-style: none;
+  padding-left: 2%;
+}
+nav li{
+  display: inline;
+}
+
+.navlinks{
+  padding-left: 1%;
+}
+.navlogo{
+  padding: 0 35% 0 33%;
+}
+section{
+  text-align: center;
+}
+section>section{
+  float: left;
+  width: 50%;
+  background-color: rgb(219, 223, 226);
+  padding: 5%;
+}
+section>section>*{padding: 1rem;}
+.hero{
+  background-image: url(fight.jpg);
+  background-size: cover;
+  background-color: rgb(102, 118,138);
+  padding: 10%;
+ 
+}
+.hero>*{
+  color: white;
+  text-decoration: none;
+}
+h1{
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+
+}
+.hero>p{
+  font-size: 1rem;
+  justify-content: center;
+  margin: 5% 17%;
+}
+.hero span{
+  font-size: 2rem;
+  margin-right: 1%;  
+}
+.hero a{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(211, 216, 220);
+}
+
+.greybg{
+background-color: rgb(219, 223, 226);
+}
+
