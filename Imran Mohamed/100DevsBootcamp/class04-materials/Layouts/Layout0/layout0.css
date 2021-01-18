@@ -1,0 +1,58 @@
+*{  
+    box-sizing: border-box;   
+    border: 1px solid black;
+    padding: 0;
+    margin:0;
+}
+header, footer{
+    height: 15vh; 
+    clear: both;
+}  
+section{
+    float: left;
+    width: 33.3333%;
+    height: 70vh; 
+}
+
+
+/* @media screen and (min-width:689px) and (max-width: 992px) {
+  section {
+    background-color: seagreen;
+  }
+  header, footer{
+    height: 15vh; 
+  }
+} */
+
+@media (min-width: 400.1px) and (max-width: 600px) {
+  body {
+    background: red;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background: blue;
+  }
+}
+
+/*
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) --- Mobile portrait ---
+@media only screen and (min-width : 480px) and (max-width : 595px) -- Mobile landscape ---
+@media only screen and (min-width : 595px) and (max-width : 690px) --- Small tablet portrait ---
+@media only screen and (min-width : 690px) and (max-width : 800px) --- Tablet portrait ---
+@media only screen and (min-width : 800px) and (max-width : 1024px) -- Small tablet landscape ---
+@media only screen and (min-width : 1024px) and (max-width : 1224px) -- Tablet landscape --- 
+
+
+
+
+
+*/

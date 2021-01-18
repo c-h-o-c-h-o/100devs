@@ -1,0 +1,132 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  border-bottom: 1px solid grey;
+  padding-left: 3%;
+  margin-top: 0;
+  line-height: 3rem;
+  padding-bottom: 0;
+}
+header *{
+  color: blue;
+  text-decoration: none;
+}
+
+header ul{
+  list-style: none;
+
+}
+li{
+  display: inline;
+  font-size: 1rem;
+  justify-items: center;
+  line-height: 3rem;
+}
+
+nav img{
+  margin-top: 1.5rem;
+  margin-left: 22%;
+  margin-right:25%;
+  height:2rem
+}
+.navlink{
+  
+  padding-right: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+}
+#courses{
+  margin-right:1rem;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+#searchbar{
+  padding-right: 1.5rem;
+  line-height: 1.5rem;
+}
+::placeholder{
+  color: blue;
+}
+#searchbtn{
+  margin-left: -1.75rem;
+}
+section{
+  float: left;
+  width:50%
+}
+section img{
+  height: 60%;
+ padding-left:15%;
+ padding-top: 10rem;
+}
+section+section{
+  padding-top: 18rem;
+}
+
+h1{
+  font-size: 2.72rem;
+  width: 55%;
+  margin-bottom: 0;
+}
+section+section img{
+  margin:0;
+  padding:0;
+  height:1rem;
+  width: 14rem;
+}
+p{
+  font-size: 1rem;
+  width: 55%;
+  margin: 3% 0;
+}
+button{
+  padding: 0.5rem;
+  font-size: 1rem;
+  color:white;
+  background-color: blue;
+  border-radius: 5%;
+  border: none;
+  margin-right: 1%;
+}
+header button{
+  color: grey;
+  background-color: transparent;
+}
+i{
+  color: grey;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

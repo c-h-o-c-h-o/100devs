@@ -1,0 +1,89 @@
+/* ---> Font <---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap');
+
+/* ----> Layout <---- */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+section{
+    background: rgb(141,207,237);
+    color: rgb(251, 253, 255);
+    max-width: 110vh;
+    margin: auto;
+    padding: 2%;
+}
+
+div{
+    border: 3px solid rgb(99, 206, 48);
+}
+
+/* -----> Custom Syling <---- */
+
+footer{ 
+    text-align: center;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 3em 1em; 
+}
+h2{
+    padding: 0 5%;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family:  serif;
+    font-size: 2em;
+    color:white;
+    font-weight: 400;
+    margin-top: 5%;
+    text-align: center;
+
+   
+}
+p{
+    margin: 3% 5%; 
+    color: rgb(238, 238, 238);
+    line-height: 1.5em;
+}
+
+/* ----- Navigation ----- */
+
+nav{
+    text-align: center;
+}
+
+a{
+    display: inline;
+    padding-left: 0.2em;
+    padding-right: 0.4em;
+    color:rgb(90, 204, 174 );
+    margin: 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid gray;
+    
+}
+header a:first-child{
+    color: white;
+    text-decoration: none;
+}
+
+a:last-child{
+    border: none;
+}
+
+/* ---- Image ---- */
+
+img{
+    width: 27.5%;
+    float: right; 
+    margin: 0 2em;
+    padding: 0.5em;
+}

@@ -1,0 +1,134 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  padding:0;
+}
+body {
+  font-size: 62.5%;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+background-color: rgb(245, 249, 252);
+color: rgb(81, 102, 121);
+line-height: 3rem;
+font-size: 1rem;
+margin: 0;
+}
+ul{
+  margin: 0;
+  padding-left: 2rem;
+  width: 100%;
+}
+li{
+  display: inline-block;
+  list-style: none;
+  float: left;
+}
+li h2{
+  margin:0 20rem 0 0 ;
+  color: rgb(81, 102, 121)
+}
+li a{
+  text-decoration: none;
+  margin: 0rem 1rem;
+  color: rgb(81, 102, 121)
+}
+li button{
+  margin-left: 19rem; 
+  background-color: rgb(48, 70, 89);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.hero{
+  height: 20rem;
+  color: rgb(48, 70, 89);
+  background-color: rgb(245, 249, 252);
+}
+.hero section{
+  float: left;
+  width: 50%;
+  padding-left: 3rem;
+}
+.hero h4{
+  margin-top: 4rem;
+}
+.hero h1, .hero p{
+  width: 11rem;
+}
+.hero input {
+  width: 9rem;
+  background-color: rgb(225, 230, 240);
+  outline: none;
+  border: none;
+  height: 1.1rem;
+  padding: 0 0.5rem;
+}
+button{
+  background-color: rgb(48, 70, 89);
+  color: white;
+  padding:0.2rem 1rem;
+  border: none;
+}
+a{
+  text-decoration: none;
+  margin-top: 1rem;
+  color: rgb(48, 70, 89);
+}
+.features{
+  height: 10rem;
+  padding: 0 12rem;
+ 
+  color: rgb(48, 70, 89);
+  background-color: rgb(245, 249, 252);
+
+}
+.features section{
+  float: left;
+  width: 20%; 
+  height: 10rem;
+  margin: 0 1rem;
+  color: rgb(48, 70, 89);
+  background-color: rgb(245, 249, 252);
+
+}
+.info{
+  height:5rem;
+  color: rgb(48, 70, 89);
+  background-color: white;
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
