@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+    width: 100vw;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10rem;
+    line-height: 2rem;
+    
+
+}
+
+h1{
+    font-size: 4rem;
+   
+}
+h2{
+    font-size: 3rem;
+    
+}
+span{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+div{
+  
+    margin: 2rem;
+}
+input, button{
+    background-color: lightblue;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+p, div{
+    font-size: 2rem;
+    margin: 1 rem;
+}
+
+span, h1, h2{
+    text-decoration: underline;
+}
+img{
+    width: 60vh;
+}
+

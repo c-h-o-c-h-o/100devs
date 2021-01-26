@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%
+}
+body{
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3rem;
+}
+h1{
+    font-size: 5rem;
+    text-decoration: underline;
+ }
+
+h3{
+    text-decoration: underline;
+}
+
+
+input{
+    display: block;
+    margin:2rem auto;
+    width: 40%;
+    height:4rem;
+    background-color: lightblue;
+    font-size: 2rem; 
+}
+
+button{
+    background-color: lightblue;
+    font-size: 2rem; 
+    padding: 1rem;
+}
+
+#reset{
+    display: block;
+    margin:  2rem auto;
+    background-color: lightcoral;
+}
+
+@media screen and (max-width: 350px) {
+   h1,h3,button,input,p {
+      display: block;
+      margin:  2rem auto;
+    }
+  }
