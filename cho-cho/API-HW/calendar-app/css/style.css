@@ -24,19 +24,37 @@
 body {
 
 }
-
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+}
+.inputs {
+  margin: 2em 2em;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+a {
+  text-decoration: none;
+  color: black;
 }
-
-footer {
-
+a:hover {
+  color: blue;
+  transition: .5s;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media screen and (max-width: 654px) {
+  input {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 466px) {
+  input {
+    width: 20%;
+  }
+}

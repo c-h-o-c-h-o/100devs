@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
+  	<meta name="description" content="Everything you wanted to know about the holidays and more">
   	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blank Template</title>
+	<title>Holiday Randomizer</title>
 	
 	<!-- external CSS link -->
 	
@@ -14,7 +14,24 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
 	</head>
 	<body>
-
+		<div class='content'>
+			<header>
+				<h1>Holiday Randomizer</h1>
+				<p>Input your <a target='_blank' rel='noopener' href='https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes'>country code</a> and any year to see a random holiday that your country celebrates!</p>
+			</header>
+			<div class='inputs'>
+				<input id='country' placeholder='Country Code' type='text'>
+				<input id='year' placeholder='Year' type='text'>
+				<button>Search</button>
+			</div>
+			<section>
+				<h2 id='holiday'></h2>
+				<span id='observance'></span>
+				<p id='date'></p>
+				<p id='description'></p>
+				
+			</section>
+		</div>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
