@@ -74,11 +74,6 @@ footer {
 }
 @media screen and (max-width: 1048px) {
   input {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  input {
     width: 75%;
   }
   .content {
