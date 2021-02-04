@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Dictionary App using OwlBot-JS">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dictionary App</title>
+	
+	<!-- external CSS link -->
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
+	</head>
+	<body>
+		<section class='content'>
+			<header>
+				<h1>Owlbot Dictionary</h1>
+				<img src='images/owl.png' alt='An owl reading a book looking all scholarly'>
+				<p>A simple dictionary app using Owlbot API</p>
+			</header>
+			<div class='input'>
+				<input type='text' placeholder='Input your word here!'>
+				<button>Search</button>
+			</div>
+			<section>
+				<div>
+					<h2 id='word'></h2>
+					<p id='pronunciation'></p>
+				</div>
+				<div>
+					<h3 id='word-class'></h3>
+					<p id='definition'></p>
+				</div>
+			</section>
+		</section>
+	
+		<script src="js/bundle.js"></script>
+	</body>
+</html>

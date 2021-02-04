@@ -1,0 +1,100 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  width: 100vw;
+  font-size: 2em;
+}
+.content {
+  margin: 0 auto;
+  padding: 2em 2em;
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.input {
+  width: 100%;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  margin: 0 auto;
+}
+header img {
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+}
+header h1 {
+  font-size: 2em;
+}
+section {
+  margin: 0 auto;
+  text-align: left;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (max-width: 1299px) {
+  input {
+    width: 75%;
+  }
+  .content {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1048px) {
+  input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  input {
+    width: 75%;
+  }
+  .content {
+    width: 100%;
+    border-style: none;
+    padding: 1em 1em;
+  }
+  header h1 {
+    font-size: 1.75em;
+  }
+}
+@media screen and (max-width: 509px) {
+  input {
+    width: 60%;
+  }
+  header h1 {
+    font-size: 1em;
+  }
+}

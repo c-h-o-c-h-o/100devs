@@ -1,0 +1,67 @@
+version: 2
+
+defaults: &defaults
+  working_directory: ~/owlbot-js
+  docker:
+    - image: circleci/node:12.2
+
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-npm
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - persist_to_workspace:
+          root: ~/owlbot-js
+          paths: .
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/owlbot-js
+      - run:
+          name: test
+          command: npm test
+      - run:
+          name: coverage report
+          command: npm run coverage
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/owlbot-js
+      - run:
+          name: Authenticate with registry
+          when: on_success
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/owlbot-js/.npmrc
+      - run:
+          name: Publish package
+          command: npm publish
+
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              only: 'master'
