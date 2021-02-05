@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
+  	<meta name="description" content="If it's dark outside, it's probably night time">
   	<meta name="keywords" content="one, two, three">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blank Template</title>
+	<title>Weather App</title>
 	
 	<!-- external CSS link -->
 	
@@ -14,7 +14,21 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
 	</head>
 	<body>
+		<div class='content'>
+			<header>
+				<h1>Weather App</h1>
+				<p>A simple weather app using OpenWeather API</p>
+				<p>Required search format: City name, state code, country code</p>
+			</header>
+			<input id='city' type='text' placeholder="City">
+			<input id='state' type='text' placeholder="State">
+			<input id='country' type='text' placeholder="Country">
+			<button>Search</button>
+			<div>
+				<h2></h2>
 
+			</div>
+		</div>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
