@@ -27,6 +27,7 @@ body {
 }
 .content {
   margin: 0 auto;
+  margin-top: 5%;
   padding: 2em 2em;
   width: 50%;
   text-align: center;
