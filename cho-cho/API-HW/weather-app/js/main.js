@@ -24,6 +24,6 @@ const result = () => {
 }
 document.querySelector('button').addEventListener('click', result)
 
-//Got nested fetches working. I use openweather api to grab a location's lng and lat coords and input that data into stormglass api to retrieve air temp, windspeed, gust, cloud cover, visibility, humidity, precipitation, and snowdepth. 
+//Got nested fetches working. I use openweather api to grab a location's lng and lat coords and input that data into stormglass api to retrieve air temp, windspeed, gust, cloud cover, visibility, humidity, precipitation, and snowdepth. Data is retrieved from National Oceanic and Atmospheric Administration's National Weather Service
 //Now need to figure out how to output the data into empty html divs. It looks like data is output in a 10 day forecast each array representing an hourly forecast for a specific day. 
 //Would like to output a detailed 10 day forecast, with each hourly forecast outputting to their own column for a day's hourly forecast. 

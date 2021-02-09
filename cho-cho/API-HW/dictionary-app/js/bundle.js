@@ -543,6 +543,10 @@ var enhanceError = require('./enhanceError');
  */
 module.exports = function createError(message, config, code, request, response) {
   var error = new Error(message);
+  document.querySelector('h2').innerHTML = `${error}. Please make sure the word is spelled correctly! If that doesn't work, this means the word doesn't exist in owlbot's database.`
+  document.querySelector('#pronunciation').innerHTML = ''
+  document.querySelector('#word-class').innerHTML = ''
+  document.querySelector('#definition').innerHTML = ''
   return enhanceError(error, config, code, request, response);
 };
 
